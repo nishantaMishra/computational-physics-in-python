@@ -9,6 +9,8 @@ for i in range(n, -1, -1):  #because step is -1 so we have written in order stop
     for j in range(0, i + 1):
         print("*", end=" ")
     print(" ") # this print function adds new line after the j loop ends. 
+    
+    
  """   
     * * * * * *  
      * * * * *  
