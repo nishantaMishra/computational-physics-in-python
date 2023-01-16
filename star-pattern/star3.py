@@ -7,3 +7,7 @@ for i in range(n):
 		else:
 			print(" ", end="")
 	print(" ")
+"""
+In a matrix it will print first row last row, first column, and last column
+"""
+
