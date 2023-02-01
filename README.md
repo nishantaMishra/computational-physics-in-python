@@ -9,14 +9,8 @@ Python codes for computational physics.
 - Secant Method.
 ---
 ### Interpolation
-
-<details>
-<summary>Expand</summary>
-1. Newton's Interpolation
-2. Lagrange Interpolaton
-<img src="">
-
-</details>
+- Newton's Interpolation
+- Lagrange Interpolaton
 ---
 ### Regression and Curve Fitting
 
