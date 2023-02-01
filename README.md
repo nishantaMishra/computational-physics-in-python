@@ -10,6 +10,11 @@ Python codes for computational physics.
 -Bisection Method
 -Newton Raphson Method
 - Secant Method.
+- I am a Physics Scholar.
+- Research Field - Nonlinear optics.
+- I am here to enhance my technical skills
+- Newton Raphson Method
+- Secant Method.
 
 </details>
 ---
