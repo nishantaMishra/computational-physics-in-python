@@ -36,4 +36,6 @@ Python codes for computational physics.
 - Square pattern of stars.
 - Downward Half Pyramid.
 - Full Downward Pyramid.
+#### A simple calculator with GUI.
+#### Random Number Generator.
 
