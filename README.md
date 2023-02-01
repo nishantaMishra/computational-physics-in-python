@@ -7,10 +7,9 @@ Python codes for computational physics.
 
 <details>
 <summary>Expand</summary>
-1. Bisection Method
-2. Newton Raphson Method
-3. Secant Method.
-<img src="">
+-Bisection Method
+-Newton Raphson Method
+- Secant Method.
 
 </details>
 ---
