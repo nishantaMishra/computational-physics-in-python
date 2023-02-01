@@ -4,19 +4,11 @@ Python codes for computational physics.
 ##This repository Includes Codes for
 ---
 ### Root Finding
-
-<details>
-<summary>Expand</summary>
 -Bisection Method
 -Newton Raphson Method
 - Secant Method.
-- I am a Physics Scholar.
-- Research Field - Nonlinear optics.
-- I am here to enhance my technical skills
 - Newton Raphson Method
 - Secant Method.
-
-</details>
 ---
 ### Interpolation
 
