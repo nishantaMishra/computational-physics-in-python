@@ -4,9 +4,7 @@ Python codes for computational physics.
 ##This repository Includes Codes for
 ---
 ### Root Finding
--Bisection Method
--Newton Raphson Method
-- Secant Method.
+- Bisection Method
 - Newton Raphson Method
 - Secant Method.
 ---
