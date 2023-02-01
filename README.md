@@ -18,7 +18,22 @@ Python codes for computational physics.
 - Linear Regression.
 - Polynomial Curve Fitting.
 - Curve fitting using python built-in functions.
-
+---
+### Numerical Differentiation 
+- Finite Difference Method.
+- Differentation using built-in functions.
+---
+### Numerical Integration 
+- Trapezoidal Rule
+- Simpson's 1/3 Rule
+- Simpson's 3/8 Rule
+- Double Integration.
+---
 ### Miscellaneous
 #### Star Pattern
+- Simple pyramid.
+- Centred Pyramid.
+- Square pattern of stars.
+- Downward Half Pyramid.
+- Full Downward Pyramid.
 
