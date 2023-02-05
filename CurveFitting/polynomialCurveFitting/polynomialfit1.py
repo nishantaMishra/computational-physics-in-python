@@ -7,6 +7,7 @@ x = [0, 1, 2, 3, 4, 5]
 y = [2, 8, 14, 28, 39, 62]
 """  
 
+
 import numpy as np 
 x = np.arange(6) #because data points were continious so we avoided manual insertion.
 y = np.array([2, 8, 14, 28, 39, 62], float)

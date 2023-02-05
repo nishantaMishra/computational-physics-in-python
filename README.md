@@ -29,6 +29,19 @@ Python codes for computational physics.
 - Simpson's 3/8 Rule
 - Double Integration.
 ---
+### System if Linear Equations
+- Gauss Elimination Method.
+- Diagonal Dominance.
+- Jacobi's Method.
+- Gauss-Seidel's Method.
+- Gauss-Jordan Method.
+---
+### Solution of Ordinary Differential Equations
+- Euler's Method
+- Second Order Runge-Kutta Method.
+- Fourth Order Runge-Kutta Method.
+---
+
 ### Miscellaneous
 #### Star Pattern
 - Simple pyramid.
