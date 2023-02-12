@@ -6,7 +6,7 @@ x2 = float(input('Enter value of x2: '))
 y1 = 2*x1**2 - 5*x1 + 3
 y2 = 2*x2**2 - 5*x2 + 3
 
-if y1*y2 > 0:
+if y1*y2 < 0:
     print('The root is not within the given interval')
     sys.exit()
 for bisection in range(1,101):
