@@ -51,4 +51,5 @@ Python codes for computational physics.
 - Full Downward Pyramid.
 #### A simple calculator with GUI.
 #### Random Number Generator.
+#### Finding average (Mean, Median, Mode)
 
