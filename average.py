@@ -1,10 +1,11 @@
-#Program for finding Average of the given data set
+#Program for finding Centeral Tendency of the given data set
 
 from collections import Counter
 
 data = [5,2, 6.5, 8,8,4, 3, 22, 3.5, 66,4, 27,8, 2, 4, 0, 2]
 
 #---------------------------------
+data.sort()
 if len(data)%2 == 0:
     m = (len(data))/2
     print('Median is',(data[int(m) -1] + data[int(m)])/2) # -1 because indexing starts from zero.
