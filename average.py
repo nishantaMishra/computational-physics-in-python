@@ -1,4 +1,4 @@
-#Program for finding Centeral Tendency of the given data set
+#Program for finding Centeral Tendencies of the given data set
 
 from collections import Counter
 

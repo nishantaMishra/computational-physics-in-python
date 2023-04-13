@@ -105,7 +105,7 @@ Ainv = np.dot(Lit,Linv)
 print('\nInverse of A is L inverse transpose times L inverse.\nUsing Cholesky Decomposition Method A inverse is\n\n',Ainv)
 ########
 ########
-while true: #infinity loop 1
+while True: #infinity loop 1
 	user = input("Say, Very good: ")
 	if (user == "Very good" or user ==  "Good" or user == "very good"):
 		print("Thankyou!")
