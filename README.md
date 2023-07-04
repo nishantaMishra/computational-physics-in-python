@@ -4,7 +4,7 @@ Python codes for computational physics.
 ## This repository Includes Codes for
 ---
 ### Root Finding
-- Bisection Method
+- [Bisection Method](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/BisectionMethod/bisection.py)
 - Newton Raphson Method
 - Secant Method.
 - Regula Falsi Method.
