@@ -5,8 +5,8 @@ Python codes for computational physics.
 ---
 ### Root Finding
 - [Bisection Method](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/BisectionMethod/bisection.py)
-- Newton Raphson Method
-- Secant Method.
+- [Newton Raphson Method](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonRaphsonMethod/newtonRaphson.py)
+- [Secant Method.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SecantMethod)
 - Regula Falsi Method.
 ---
 ### Interpolation
