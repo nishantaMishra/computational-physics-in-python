@@ -7,11 +7,11 @@ Python codes for computational physics.
 - [Bisection Method](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/BisectionMethod/bisection.py)
 - [Newton Raphson Method](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonRaphsonMethod/newtonRaphson.py)
 - [Secant Method.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SecantMethod)
-- Regula Falsi Method.
+- [Regula Falsi Method.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/RegulaFalsiMethod)
 ---
 ### Interpolation
-- Newton's Interpolation
-- Lagrange Interpolaton
+- [Newton's Interpolation](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/newtonsDividedDifference)
+- [Lagrange Interpolaton](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/lagrangeMethod)
 - Getting Polynomial through Newton's and Lagrange Interpolaton.
 ---
 ### Regression and Curve Fitting
