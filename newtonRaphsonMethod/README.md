@@ -26,8 +26,10 @@ Defining a Newton Raphson Function that takes four parameters
 2. df: The derivative of the function f.
 3. x0: The initial guess for the root.
 4. tol: The tolerance level for the root approximation.
-NRF Function Definition:
+
+**NRF Function Definition:**
 - Print Initial Guess: The function prints the initial guess x0.
 - Root Check: if the absolute value of f(x0) is less than the tolerance tol. prints value of x0 as the root and returns it.
-- Recursion: If the root check fails (i.e., abs(f(x0)) is not less than tol), the function recursively calls itself with updated parameters. In the recursive call, the function updates the value of x0 using the Newton-Raphson method formula:
+- Recursion: If the root check fails (i.e., abs(f(x0)) is not less than tol), the function recursively calls itself with updated parameters.
 
+- [Code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonRaphsonMethod/newtonRaphson.py)
