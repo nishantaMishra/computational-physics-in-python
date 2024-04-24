@@ -2,8 +2,8 @@
 
 ## Bisection Method
 The Intermediate Value Theorem says that if _f(x)_ is a continuous function between a and b, and
-sign(_f(a)_) $\neq$ sign(_f(b)_), then there must be _a_ _c_, such that _a_ < _c_ < _b_ and $f(c) = 0$. This is illustrated
-in Fig. 19.1.
+$sign(f(a)) \neq sign(f(b))$, then there must be _a_ _c_, such that $a < c < b$ and $f(c) = 0$. This is illustrated
+in Fig. below
 
 
 
