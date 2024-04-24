@@ -4,8 +4,8 @@ Python codes for computational physics.
 ## This repository Includes Codes for
 ---
 ### Root Finding
-- [Bisection Method](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/BisectionMethod/bisection.py)
-- [Newton Raphson Method](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonRaphsonMethod/newtonRaphson.py)
+- [Bisection Method](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/BisectionMethod)
+- [Newton Raphson Method](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonRaphsonMethod)
 - [Secant Method.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SecantMethod)
 - [Regula Falsi Method.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/RegulaFalsiMethod)
 ---
