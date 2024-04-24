@@ -4,11 +4,11 @@
 The Intermediate Value Theorem says that if _f(x)_ is a continuous function between a and b, and
 $sign(f(a)) \neq sign(f(b))$, then there must be _a_ _c_, such that $a < c < b$ and $f(c) = 0$. This is illustrated
 in Fig. below
-![myfile](figure1.png)
+
 
 [<img src="figure1.png" width="250"/>](figure1.png) 
 
-[//]: # (This may be the most platform independent comment)
+[//]: # "![myfile](figure1.png)"
 
 
 **Algorithm of Bisection Method used here**
