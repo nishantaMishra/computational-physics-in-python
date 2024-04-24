@@ -19,7 +19,7 @@ and is given by the equation
 ```math
 x_i = x_{i-1} - \frac{g(x_{i-1})}{g'(x_{i-1})}
 ```
-
+---
 ### Algorithm used here
 Defining a Newton Raphson Function that takes four parameters
 1. f: The function whose root is to be found.
