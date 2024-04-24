@@ -6,7 +6,7 @@ $sign(f(a)) \neq sign(f(b))$, then there must be _a_ _c_, such that $a < c < b$ 
 in Fig. below
 ![myfile](figure1.png)
 
-[<img src="figure1.png" width="250"/>](figure1.png)
+[<img src="figure1.png" width="250"/>](figure1.png) [//]: # (This may be the most platform independent comment)
 
 
 **Algorithm of Bisection Method used here**
