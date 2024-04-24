@@ -11,9 +11,10 @@ The bisection method uses the intermediate value theorem iteratively to find roo
 a continuous function, and a and b be real scalar values such that $a < b$. Assume, without loss of
 generality, that $f (a) > 0$ and $f (b) < 0$. Then, by the intermediate value theorem, there must be a root
 in the open interval $(a, b)$. Now let $m = \frac{b+a}{2}$ be the midpoint between and a and b. If $f(m) = 0$ or
-is close enough, then m is a root. If $f(m) > 0$, then m is an improvement on the left bound, a, and it
+is close enough, then m is a root. If $f(m) > 0$, then m is an improvement on the left bound, _a_, and it
 is guaranteed that there is a root in the open interval $(m, b)$. If $f(m) < 0$, then m is an improvement
-on the right bound, b, it is guaranteed that there is a root in the open interval $(a, m)$.
+on the right bound, _b_, it is guaranteed that there is a root in the open interval $(a, m)$.
+The process of updating _a_ and _b_ is repeated until the error is acceptably low.
 
 
 **Algorithm of Bisection Method used here**
