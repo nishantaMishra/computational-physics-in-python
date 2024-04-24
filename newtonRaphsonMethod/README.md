@@ -31,5 +31,5 @@ Defining a Newton Raphson Function that takes four parameters
 - Print Initial Guess: The function prints the initial guess x0.
 - Root Check: if the absolute value of f(x0) is less than the tolerance tol. prints value of x0 as the root and returns it.
 - Recursion: If the root check fails (i.e., abs(f(x0)) is not less than tol), the function recursively calls itself with updated parameters.
-
+---
 - [Code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonRaphsonMethod/newtonRaphson.py)
