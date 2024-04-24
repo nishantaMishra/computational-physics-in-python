@@ -29,7 +29,7 @@ on the right bound, b, it is guaranteed that there is a root in the open interva
 10. Else repeat steps from 5 to 10.
 
 - [Code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/BisectionMethod/bisection.py)
-```
+```python
 # Find root of 2*x**2 - 5*x + 3 = 0 using bisection method
 import sys
 
