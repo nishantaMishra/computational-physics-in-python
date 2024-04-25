@@ -12,7 +12,7 @@ x^{(k)} = x^{(k-1)} - \frac{f(x^{(k-1)})}{f'(x^{(k-1)}} \quad k = 1, 2, 3, ...
 ```
 and approximates derivative $ f'(x^{(k-1)}$ using the latest two points and function values
 ```math
-f'(x^{(k-1))} \approx \frac{f(x^{(k-1))} - f(x^{(k-2)})}{x^{(k-1)} - x^{(k-2)}} 
+f'(x^{(k-1))} \approx \frac{f(x^{(k-1))} - f(x^{(k-2)})}{x^{(k-1)} - x^{(k-2)}}  \tag{$\ast$}
 ```
 Which looks like finite difference, where the spacing h is picked not by being on a grid
 or by hand, but by whatever values our latest iterates have; this implies that the spacing
@@ -30,6 +30,7 @@ straight line that cuts a curve in two or more points. You can understand why th
 is so named if you think about the geometric interpretation of our prescription in Eq. above
 From elementary geometry, you may recall that the line that goes through the two points
 (x0 , y0 ) and (x1 , y1 ) is:
+
 \begin{align}
     g &= \int_a^b f(x)dx \label{eq1} \\
     a &= b + c \label{eq2}
