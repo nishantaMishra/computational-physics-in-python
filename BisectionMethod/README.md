@@ -1,8 +1,8 @@
-#Root Finding
+# Root Finding
 
 ## Bisection Method
-The Intermediate Value Theorem says that if _f(x)_ is a continuous function between a and b, and
-$sign(f(a)) \neq sign(f(b))$, then there must be _a_ _c_, such that $a < c < b$ and $f(c) = 0$. This is illustrated
+The **Intermediate Value Theorem** says that if _f(x)_ is a continuous function between a and b, and
+$sign(f(a)) \neq sign(f(b))$, then there must be a _c_, such that $a < c < b$ and $f(c) = 0$. This is illustrated
 in Fig. below
 
 [<img src="figure1.png" width="250"/>](figure1.png) 
@@ -16,7 +16,7 @@ is guaranteed that there is a root in the open interval $(m, b)$. If $f(m) < 0$,
 on the right bound, _b_, it is guaranteed that there is a root in the open interval $(a, m)$.
 The process of updating _a_ and _b_ is repeated until the error is acceptably low.
 
-
+---
 **Algorithm of Bisection Method used here**
 1. Input two values of x that embrace the interval where the root is expected
 2. Calculate corresponding values for y
