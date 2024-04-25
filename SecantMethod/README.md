@@ -40,6 +40,12 @@ $(x^{(k−2)} , f(x^{(k−2)}))$. The intercept of that straight line with the x
 and so on.
 
 ---
+### Algorithm
+```math
+x_{new} = x_2 - (x_2-x_1)/(fn(x_2) - fn(x_1)) \times fn(x_2)
+```
+
+---
 - [Code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/SecantMethod/secant1.py)
 
 
