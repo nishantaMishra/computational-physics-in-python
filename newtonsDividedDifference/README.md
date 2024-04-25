@@ -3,9 +3,8 @@
 ## Newton's Interpolation (Divided differences)
 If we have a set of value pairs (x values and corresponding y values)
 
-|---
 | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | 
-|---
+|--- | | | |
 | $y_1$ | $y_2$ | $y_3$ | $y_4$ | $y_5$ | 
 
 then
