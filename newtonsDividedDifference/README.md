@@ -1,7 +1,21 @@
 # Interpolation
 
 ## Newton's Interpolation (Divided differences)
+If we have a set of value pairs (x values and corresponding y values)
 
+| $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | 
+|---
+| $y_1$ | $y_2$ | $y_3$ | $y_4$ | $y_5$ | 
+then
+Newton's method can give the value of function at any given point as
+```math
+y(x) = a_0 + a_1(x - x_1) + a_2 (x - x_1) (x - x_2) + ... + a_n (x - x_1)(x - x_1) ...(x - x_n) 
+```
+This can be done in two steps
+1. The divided differences procedure to calculate the coefficients of the ploynomial, i.e. coefficient a(s) in above expression.
+2. The substitution of values of x_i from the value pairs and the given x to the above polynomial to get interpolated y.
+
+Following is the divided difference table.
 |   0   |    1    |    2    |   3   |   4   |
 | ---   | :---:    |  :---:   | :---:  | :---:    |    
 | $x_1$ | $y_1^{(1)}$ |     |       |      | 
