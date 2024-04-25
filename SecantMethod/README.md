@@ -30,7 +30,9 @@ straight line that cuts a curve in two or more points. You can understand why th
 is so named if you think about the geometric interpretation of our prescription in Eq. above
 From elementary geometry, you may recall that the line that goes through the two points
 (x0 , y0 ) and (x1 , y1 ) is:
+\begin{align}
+    g &= \int_a^b f(x)dx \label{eq1} \\
+    a &= b + c \label{eq2}
+\end{align}
 
-\begin{equation}
-y - y_0 = mx+b
-\end{equation}
+See (\ref{eq1})
