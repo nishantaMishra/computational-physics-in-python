@@ -2,14 +2,13 @@
 #######   Newton divided difference interpolation (Basic)     #########
 ######################################################################
 
-
 x = [0.0, 1.5, 2.8, 4.4, 6.1, 8.0]
 y = [0.0, 0.9, 2.5, 6.6, 7.7, 8.0]
 n = len(x) - 1
 #---------------------
 import numpy as np
 Dy = np.zeros((n+1, n+1)) #difference y . This is a matrix 
-Dy[:,0] = y # this is slicing. We are trying to transfer the valuse of y to the matrix DY. It 
+Dy[:,0] = y # this is slicing. We are trying to transfer the values of y to the matrix DY. It 
 
 # latex: Y_i^{j+1} = \frac{Y_i^{j} - Y_j^{j}}{(x_i - x_j)}
 for j in range(n):
