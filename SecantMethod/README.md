@@ -42,7 +42,7 @@ and so on.
 ---
 ### Algorithm
 ```math
-x_{new} = x_2 - (x_2-x_1)/(fn(x_2) - fn(x_1)) \times fn(x_2)
+x_{new} = x_2 - \frac{(x_2-x_1)}{fn(x_2)} - fn(x_1)) \times fn(x_2)
 ```
 
 ---
