@@ -23,3 +23,14 @@ x^{(k)} = x^{(k-1)} - \frac{x^{(k-1)} - x^{(k-2)}}{f(x^{(k-1))} - f(x^{(k-2)})} 
 ```
 where we start the iteration at k = 2, since we need two initial guesses as starting points.
 
+
+
+One might wonder where the name “secant” comes from. This word secant (from the Latin secare, “to cut”.) refers to a
+straight line that cuts a curve in two or more points. You can understand why the method
+is so named if you think about the geometric interpretation of our prescription in Eq. above
+From elementary geometry, you may recall that the line that goes through the two points
+(x0 , y0 ) and (x1 , y1 ) is:
+
+\begin{equation}
+y - y_0 = mx+b
+\end{equation}
