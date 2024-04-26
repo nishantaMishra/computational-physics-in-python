@@ -16,7 +16,7 @@ This can be done in two steps
 2. The substitution of values of $x_i$ from the value pairs and the given x to the above polynomial to get interpolated y.
 
 Following is the divided difference table.
-|   $x$   |    $y$    |    $\Delta y$    |   3   |   4   |
+|   $x$   |    $y$    |    $\Delta y$    |   $\Delta^2 y$   |   $\Delta^3 y$   |
 | ---   | :---:    |  :---:   | :---:  | :---:    |    
 | $x_1$ | $y_1^{(1)}$ |     |       |      | 
 | $x_2$ | $y_2^{(1)}$  | $y_2^{(2)}$ |   |    |
