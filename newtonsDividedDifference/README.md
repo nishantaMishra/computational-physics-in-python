@@ -13,10 +13,10 @@ y(x) = a_0 + a_1(x - x_1) + a_2 (x - x_1) (x - x_2) + ... + a_n (x - x_1)(x - x_
 ```
 This can be done in two steps
 1. The divided differences procedure to calculate the coefficients of the ploynomial, i.e. coefficient a(s) in above expression.
-2. The substitution of values of x_i from the value pairs and the given x to the above polynomial to get interpolated y.
+2. The substitution of values of $x_i$ from the value pairs and the given x to the above polynomial to get interpolated y.
 
 Following is the divided difference table.
-|   0   |    1    |    2    |   3   |   4   |
+|   $x$   |    $y$    |    $\Delta y$    |   3   |   4   |
 | ---   | :---:    |  :---:   | :---:  | :---:    |    
 | $x_1$ | $y_1^{(1)}$ |     |       |      | 
 | $x_2$ | $y_2^{(1)}$  | $y_2^{(2)}$ |   |    |
