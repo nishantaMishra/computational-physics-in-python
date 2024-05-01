@@ -36,4 +36,22 @@ enter number of rows: 6
 *    * 
 ****** 
 ```
+4. Downward Half Pyramid
+```bash
+Enter number of rows: 5
+* * * * *  
+* * * *  
+* * *  
+* *  
+* 
+```
 
+5. Full Downward Pyramid
+```bash
+    * * * * * *  
+     * * * * *  
+      * * * *  
+       * * *  
+        * *  
+         *  
+```
