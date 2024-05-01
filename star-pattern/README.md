@@ -3,7 +3,7 @@
 Printing star pattern is a good exersise for beginners to get familiar with loops and other frequently used functions of python.
 
 This repository has following pattern of printing stars,
-1. Simple pyramid
+1. [Simple pyramid](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/star-pattern/star1.py)
 ```bash                 
 *
 ***
