@@ -7,7 +7,7 @@ y(x) = y_1l_1(x) + y_2l_2(x) + y_3l_3(x) + y_4l_4(x)
 ```
 or in general, 
 ```math
-y(x) = \sigma_l=1^{n+1} y_il_i(x)
+y(x) = \Sigma_l=1^{n+1} y_il_i(x)
 ```
 
 where, 
