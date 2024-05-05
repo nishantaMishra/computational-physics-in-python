@@ -5,6 +5,11 @@ This method involves constructing a polynomial of degree $n$, where $n$ is deter
 ```math
 y(x) = y_1l_1(x) + y_2l_2(x) + y_3l_3(x) + y_4l_4(x)
 ```
+or in general, 
+```math
+y(x) = \sigma_l=1^{n+1} y_il_i(x)
+```
+
 where, 
 ```math
 l_1(x) = \frac{(x - x_2) (x - x_3) (x - x_4)}{(x_1 - x_2) (x_1 - x_3) (x_1 - x_4)} 
@@ -19,9 +24,9 @@ l_3(x) = \frac{(x - x_1) (x - x_2) (x - x_4)}{(x_3 - x_1) (x_3 - x_2) (x_3 - x_4
 l_4(x) = \frac{(x - x_1) (x - x_2) (x - x_3)}{(x_4 - x_1) (x_4 - x_2) (x_4 - x_3)} 
 ```
 
-in general these relations can be expressed as, 
+in general these relations of ls can be expressed as, 
 ```math
-l_i(x) = \prod_{j=1 \\ j \neq i}^{n+1} 
+l_i(x) = \prod_{j=1, j \neq i}^{n+1}  \frac{(x - x_j)}{(x_i - x_j)}
 ```
 
 
