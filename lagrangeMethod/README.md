@@ -15,6 +15,16 @@ l_2(x) = \frac{(x - x_1) (x - x_3) (x - x_4)}{(x_2 - x_1) (x_2 - x_3) (x_2 - x_4
 ```math
 l_3(x) = \frac{(x - x_1) (x - x_2) (x - x_4)}{(x_3 - x_1) (x_3 - x_2) (x_3 - x_4)} 
 ```
+```math
+l_4(x) = \frac{(x - x_1) (x - x_2) (x - x_3)}{(x_4 - x_1) (x_4 - x_2) (x_4 - x_3)} 
+```
+
+in general these relations can be expressed as, 
+```math
+l_i(x) = \prod_{j=1 \\ j =! i}^{n+1} 
+```
+
+
 
 ### Example 
 
