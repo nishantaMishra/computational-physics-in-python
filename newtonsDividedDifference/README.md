@@ -26,7 +26,7 @@ Following is the divided difference table.
 
 The General formula for the divided difference is 
 ```math
-y_i^{(j+1)} = \frac{y_i^(j) - y_j^(j)}{x_i - x_j} , \quad j = 1, 2, 3, ...,n and i = j+1, ... , n+1
+y_i^{(j+1)} = \frac{y_i^{(j)} - y_j^{(j)}}{x_i - x_j} , \quad j = 1, 2, 3, ...,n and i = j+1, ... , n+1
 ```
 This equation has been coded in the following codes,
 ---
