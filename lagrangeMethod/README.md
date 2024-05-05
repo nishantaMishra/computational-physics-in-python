@@ -5,6 +5,16 @@ This method involves constructing a polynomial of degree $n$, where $n$ is deter
 ```math
 y(x) = y_1l_1(x) + y_2l_2(x) + y_3l_3(x) + y_4l_4(x)
 ```
+where, 
+```math
+l_1(x) = \frac{(x - x_2) (x - x_3) (x - x_4)}{(x_1 - x_2) (x_1 - x_3) (x_1 - x_4)} 
+```
+```math
+l_2(x) = \frac{(x - x_1) (x - x_3) (x - x_4)}{(x_2 - x_1) (x_2 - x_3) (x_2 - x_4)} 
+```
+```math
+l_3(x) = \frac{(x - x_1) (x - x_2) (x - x_4)}{(x_3 - x_1) (x_3 - x_2) (x_3 - x_4)} 
+```
 
 ### Example 
 
