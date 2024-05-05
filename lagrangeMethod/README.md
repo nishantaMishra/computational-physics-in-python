@@ -35,6 +35,13 @@ y(x) = \sum_{l=1}^{n+1} y_i \Big( \prod_{j=1, j \neq i}^{n+1}  \frac{(x - x_j)}{
 ```
 this is the algorithm for Lagrange's interpolation.
 
+---
+### Code(s)
+---
+- [interactive Code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/lagrangeMethod/lagrange1.py)
+
+- [interactive code with plot of calculated polynomial](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/lagrangeMethod/lagrange2.py)
+
 ### Example 
 
 ```bash
