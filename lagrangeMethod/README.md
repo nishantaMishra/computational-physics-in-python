@@ -7,7 +7,7 @@ y(x) = y_1l_1(x) + y_2l_2(x) + y_3l_3(x) + y_4l_4(x)
 ```
 or in general, 
 ```math
-y(x) = \sum_{l=1}^{n+1} y_il_i(x)
+y(x) = \sum_{l=1}^{n+1} y_il_i(x) \quad \tag{$1$}
 ```
 
 where, 
@@ -26,9 +26,13 @@ l_4(x) = \frac{(x - x_1) (x - x_2) (x - x_3)}{(x_4 - x_1) (x_4 - x_2) (x_4 - x_3
 
 in general these relations of ls can be expressed as, 
 ```math
-l_i(x) = \prod_{j=1, j \neq i}^{n+1}  \frac{(x - x_j)}{(x_i - x_j)}
+l_i(x) = \prod_{j=1, j \neq i}^{n+1}  \frac{(x - x_j)}{(x_i - x_j)} \quad \tag{$2$}
 ```
+Then using Eq. $(1)$ and $(2)$, the general form of Lagrange's formula can be written as, 
 
+```math
+y(x) = \sum_{l=1}^{n+1} y_i \right( y(x) = \sum_{l=1}^{n+1} y_il_i(x) \quad \tag{$1$} \left)
+```
 
 
 ### Example 
