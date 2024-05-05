@@ -34,4 +34,4 @@ This equation has been coded in the following codes,
 ---
 - [Code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonsDividedDifference/newton1.py)
 
--[interactive code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonsDividedDifference/newton2.py)
+- [interactive code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonsDividedDifference/newton2.py)
