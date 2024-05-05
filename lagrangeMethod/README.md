@@ -31,7 +31,7 @@ l_i(x) = \prod_{j=1, j \neq i}^{n+1}  \frac{(x - x_j)}{(x_i - x_j)} \quad \tag{$
 Then using Eq. $(1)$ and $(2)$, the general form of Lagrange's formula can be written as, 
 
 ```math
-y(x) = \sum_{l=1}^{n+1} y_i \Big( y(x) = \sum_{l=1}^{n+1} y_il_i(x) \quad \tag{$1$} \Big)
+y(x) = \sum_{l=1}^{n+1} y_i \Big( \prod_{j=1, j \neq i}^{n+1}  \frac{(x - x_j)}{(x_i - x_j)}  \Big)
 ```
 
 
