@@ -25,3 +25,13 @@ Following is the divided difference table.
 | $x_5$ | $y_5^{(1)}$  | $y_5^{(2)}$ | $y_5^{(3)}$| $y_5^{(4)}$|
 
 The General formula for the divided difference is 
+```math
+y_i^(j+1) = \frac{y_i^(j) - y_j^(j)}{x_i - x_j} , \quad j = 1, 2, 3, ...,n and i = j+1, ... , n+1
+```
+This equation has been coded in the following codes,
+---
+### Code(s)
+---
+- [Code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonsDividedDifference/newton1.py)
+
+-[interactive code](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/newtonsDividedDifference/newton2.py)
