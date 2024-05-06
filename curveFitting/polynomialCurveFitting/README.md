@@ -17,7 +17,17 @@ Where, A is a matrix and a and B are vectors.
 \begin{bmatrix}
 m & \sum x_i & \sum x_i^2 & ... & \sum x_i^n\\
 \sum x_i & \sum x_i^2 & \sum x_i^3 & ... & \sum x_i^{n+1}\\
-.   & . & . & . & .\\
-\sum x_i^n & \sum x_i & \sum & ... & \sum\\
+\vdots  & \vdots & \vdots & \vdots & \vdots\\
+\sum x_i^n & \sum x_i^{n+1} & \sum x_i^{n+2} & ... & \sum x_i^{2n}\\
 \end{bmatrix}
+
+and 
+\begin{align}
+    B &= \begin{bmatrix}
+           \sum y_{i} \\
+           \sum x_{i}y_i \\
+           \vdots \\
+           \sum x_{i}^n y_i
+         \end{bmatrix}
+\end{align}
 ```
