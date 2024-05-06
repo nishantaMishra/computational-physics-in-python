@@ -1,7 +1,7 @@
 # Regression and Curve Fitting
 
 
-### Polynomial curve fitting
+## Polynomial curve fitting
 Concept of Polynomial curve fitting is similar to linear curve fitting. A straight might not be the ideal representative of the data under consideration. Then some polynomial curve might be a good choice,
 
 The polynomial has the form, 
@@ -34,4 +34,28 @@ and \quad \quad
 \tag{$1$}
 ```
 in the above matrices $\sum = \sum_{i=1}^m$. 
-(1) is a system of linear equations. Here, our task can be done in two steps. First, to calculate all the coefficients and then solve the system using a linear system solving technique like Gauss-Elimination Method.
+(1) is a system of linear equations. Here, our task can be realised in two steps. First, to calculate all the coefficients and then solve the system using a linear system solving technique like Gauss-Elimination Method.
+
+### Codes
+[polynomialfit1.py](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/curveFitting/polynomialCurveFitting/polynomialfit1.py) : Non-interactive program. Data to be solved is hard-coded in it.
+[polynomialfit2.py](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/curveFitting/polynomialCurveFitting/polynomialfit2.py) : This is an interactive code, it asks user to enter number of value pairs (x values and corresponding y values) and degree of polynomial to fit.
+```bash
+└─# python3 polynomialfit2.py
+Enter the number of points: 4
+x[0]: 0
+x[1]: 1
+x[2]: 2
+x[3]: 3
+y[0]: 2
+y[1]: 8
+y[2]: 14
+y[3]: 28
+Enter degree of polnomial to fit 
+ 2 for quadratic 	 3 for cubic
+Degree of polynomial: 2
+f(x) = 	 2.400000
+	 +2.400000 x^1
+	 +2.000000 x^2
+```
+
+[polynomialfit3.py](polynomialfit3.py) : This uses functions of Scipy for solving the equations.
