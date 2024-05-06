@@ -15,7 +15,7 @@ Python codes for computational physics.
 - Getting Polynomial through Newton's and Lagrange Interpolaton.
 ---
 ### Regression and Curve Fitting
-- Linear Regression.
+- [Linear Regression.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/curveFitting/linearRegression)
 - Polynomial Curve Fitting.
 - Curve fitting using python built-in functions.
 ---

@@ -12,5 +12,5 @@ y = a + bx
 the coefficients a and b can be found by, 
 
 ```math
-a = \frac{\overline {y} \sum x_i^{2} - \overline{x} \sum X_iY_i }{\sum x_i^2 - n\overline{x^2}}
+a = \frac{\overline {y} \sum x_i^{2} - \overline{x} \sum x_iy_i }{\sum x_i^2 - n\overline{x}^2}  \quad \quad \quad  b = \frac{\sum x_iy_i - \overline{x} \sum y_i}{\sum x_i^2 - n\overline{x}^2}
 ```
