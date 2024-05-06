@@ -20,6 +20,13 @@ where bar represents average of the quantity,
 \overline{x} = \frac{1}{n} \sum_{i=1}^n x_i \quad \quad \quad \overline{y} = \frac{1}{n} \sum_{i=1}^n y_i
 ```
 
+### Codes
+
+[linearRegression1.py]() : This code uses logics for coding every summation($\sum$), and thus obtains equation of line.
+[linearRegression2.py]() : This code uses builtin functions from numpy library for calculating average and sum.
+
+These are non-interactive programs values of x and y need to be edited within the code.
+
 ### Example 
 
 Find equation of the line that fits the data
@@ -28,3 +35,8 @@ Find equation of the line that fits the data
 | ---   | :---:    |  :---:   | :---:  | :---:  | :---: | :---:    |    
 | $y$ | $1$ | $6$ | $17$ | $23$ | $30$ | $42$ |
 
+```bash
+└─# python3 linearRegression2.py
+The straight line equation 
+y = (-18.79) + (7.83)x
+ ```
