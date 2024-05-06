@@ -30,5 +30,8 @@ and \quad \quad
            \sum x_{i}^n y_i
          \end{bmatrix}
 \end{align}
+
+\tag{$1$}
 ```
-in the above matrices $\sum = \sun_{i=1}^m$
+in the above matrices $\sum = \sum_{i=1}^m$. 
+(1) is a system of linear equations. Here, our task can be done in two steps. First, to calculate all the coefficients and then solve the system using a linear system solving technique like Gauss-Elimination Method.
