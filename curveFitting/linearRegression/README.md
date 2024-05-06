@@ -23,6 +23,7 @@ where bar represents average of the quantity,
 ### Codes
 
 [linearRegression1.py]() : This code uses logics for coding every summation($\sum$), and thus obtains equation of line.
+
 [linearRegression2.py]() : This code uses builtin functions from numpy library for calculating average and sum.
 
 These are non-interactive programs values of x and y need to be edited within the code.

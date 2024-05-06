@@ -22,5 +22,5 @@ ymean = sumy/n
 
 a = (ymean*sumx2 - xmean*sumxy)/(sumx2 - n*xmean**2)
 b = (sumxy - xmean*sumy)/(sumx2 - n*xmean**2)
-print('The straight line equation')
+print('The straight line equation that fits the data is: ')
 print('y = (%.3f) + (%.3f)x' % (a,b))

@@ -14,4 +14,4 @@ n = len(x)
 a = (np.mean(y)*np.sum(x**2)-np.mean(x)*np.sum(x*y))/(np.sum(x**2)-n*np.mean(x)**2);
 b = (np.sum(x*y)-np.mean(x)*np.sum(y))/(np.sum(x**2)-n*np.mean(x)**2)
 
-print('The straight line equation \n y = (%.2f) + (%.2f)x' % (a,b))
+print('The straight line equation that fits the data is: \n y = (%.2f) + (%.2f)x' % (a,b))
