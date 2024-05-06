@@ -21,7 +21,7 @@ m & \sum x_i & \sum x_i^2 & ... & \sum x_i^n\\
 \sum x_i^n & \sum x_i^{n+1} & \sum x_i^{n+2} & ... & \sum x_i^{2n}\\
 \end{bmatrix}
 
-and 
+and \quad \quad
 \begin{align}
     B &= \begin{bmatrix}
            \sum y_{i} \\
