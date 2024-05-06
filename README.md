@@ -12,7 +12,7 @@ Python codes for computational physics.
 ### Interpolation
 - [Newton's Interpolation](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/newtonsDividedDifference)
 - [Lagrange Interpolaton](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/lagrangeMethod)
-- Getting Polynomial through Newton's and Lagrange Interpolaton.
+- [Getting Polynomial through Newton's and Lagrange Interpolaton.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/interpolationPolynomial)
 ---
 ### Regression and Curve Fitting
 - [Linear Regression.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/curveFitting/linearRegression)

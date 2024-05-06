@@ -9,6 +9,8 @@ If we have a set of value pairs (x values and corresponding y values)
 
 then it is possible to obtain a polynomial function $f(x)$ that represents the given data set. This can be done by using polynomial. If we solve an interpolation equation for the variable(and not for a fixed point) then, we will get a polynomial function instead of a fixed numerical value.
 
+### Code
+
 [This code](lagPolynomial.py) will give polynomial according to the Lagrange's interpolation formula.
 
 **Usage** : The program first asks the user to enter number of data points i.e. how many value pairs does he have, then user is supposed to enter all the values of x and all the values of y. After typing every value user should press enter to proceed.
