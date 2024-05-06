@@ -43,7 +43,7 @@ Python codes for computational physics.
 ---
 
 ### Miscellaneous
-#### Star Pattern
+#### [Star Pattern](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/star-pattern)
 - Simple pyramid.
 - Centred Pyramid.
 - Square pattern of stars.

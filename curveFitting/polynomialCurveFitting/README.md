@@ -13,3 +13,11 @@ If a set of data containing m points is to be fitted by the polynomial curve of 
 [A]\{a\} = \{B\}
 ```
 Where, A is a matrix and a and B are vectors.
+```math
+\begin{bmatrix}
+m & \sum x_i & \sum x_i^2 & ... & \sum x_i^n\\
+\sum x_i & \sum x_i^2 & \sum x_i^3 & ... & \sum x_i^{n+1}\\
+.   & . & . & . & .
+\sum x_i^n & \sum x_i & \sum & ... & \sum\\
+\end{bmatrix}
+```
