@@ -37,8 +37,9 @@ in the above matrices $\sum = \sum_{i=1}^m$.
 (1) is a system of linear equations. Here, our task can be realised in two steps. First, to calculate all the coefficients and then solve the system using a linear system solving technique like Gauss-Elimination Method.
 
 ### Codes
-[polynomialfit1.py](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/curveFitting/polynomialCurveFitting/polynomialfit1.py) : Non-interactive program. Data to be solved is hard-coded in it.
-[polynomialfit2.py](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/curveFitting/polynomialCurveFitting/polynomialfit2.py) : This is an interactive code, it asks user to enter number of value pairs (x values and corresponding y values) and degree of polynomial to fit.
+- [polynomialfit1.py](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/curveFitting/polynomialCurveFitting/polynomialfit1.py) : Non-interactive program. Data to be solved is hard-coded in it.
+
+- [polynomialfit2.py](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/curveFitting/polynomialCurveFitting/polynomialfit2.py) : This is an interactive code, it asks user to enter number of value pairs (x values and corresponding y values) and degree of polynomial to fit.
 ```bash
 └─# python3 polynomialfit2.py
 Enter the number of points: 4
@@ -58,4 +59,4 @@ f(x) = 	 2.400000
 	 +2.000000 x^2
 ```
 
-[polynomialfit3.py](polynomialfit3.py) : This uses functions of Scipy for solving the equations.
+- [polynomialfit3.py](polynomialfit3.py) : This uses functions of Scipy for solving the equations.
