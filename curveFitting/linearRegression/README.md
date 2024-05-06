@@ -25,6 +25,6 @@ where bar represents average of the quantity,
 Find equation of the line that fits the data
 
 | $x$ | $2$ | $5$ | $4.3$ | $6$ | $7$ | 
-| ---   | :---:    |  :---:   | :---:  | :---:    |    
+| ---   | :---:    |  :---:   | :---:  | :---:  | :---: | :---:    |    
 | $y$ | $1$ | $6$ | $17$ | $23$ | $30$ | $42$ |
 
