@@ -16,7 +16,7 @@ Python codes for computational physics.
 ---
 ### Regression and Curve Fitting
 - [Linear Regression.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/curveFitting/linearRegression)
-- Polynomial Curve Fitting.
+- [Polynomial Curve Fitting.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/curveFitting/polynomialCurveFitting)
 - Curve fitting using python built-in functions.
 ---
 ### Numerical Differentiation 
