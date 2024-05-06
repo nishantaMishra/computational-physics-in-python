@@ -31,3 +31,4 @@ and \quad \quad
          \end{bmatrix}
 \end{align}
 ```
+in the above matrices $\sum = \sun_{i=1}^m$
