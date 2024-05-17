@@ -20,7 +20,7 @@ Python codes for computational physics.
 - Curve fitting using python built-in functions.
 ---
 ### Numerical Differentiation 
-- Finite Difference Method.
+- [Finite Difference Method.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/Differentiation)
 - Differentation using built-in functions.
 ---
 ### Numerical Integration 

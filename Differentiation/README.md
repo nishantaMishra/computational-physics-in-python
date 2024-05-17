@@ -2,8 +2,7 @@
 
 This repository contains codes for numerically approximating derivatives of a function.
 
-## Forward difference approximation
-
+## Finite Difference Method.
 
 While evaluating derivatives the aim is to approximate the slope of a curve $f$ at a particular point $x = a$ in terms of $f(a)$ and
 the value of $f$ at a nearby point where $x = a+h$. The shorter broken line Figure 1 may be thought
@@ -37,6 +36,6 @@ This is called a **central difference** approximation to the derivative of $f$.
 - [Backward difference approximatin](differentiation2.py)
 - [Central difference approximatin](differentiation3.py) 
 - [Graph of derivative functions](differentiation4.py)
-In practice it is convenient to use inbuilt functions of python for finding derivatives
+
 
 
