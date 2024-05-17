@@ -14,7 +14,7 @@ is small enough.
 
 So, we might approximate 
 ```math
-f'(a) \approx slope = \frac{difference\quad in\, the\, y-values}{difference\, in\, the\, x-values} = \frac{f(a+h) - f(a)}{h}   \tag{$1$} 
+f'(a) \approx slope = \frac{\text{difference in the y-values}}{difference\, in\, the\, x-values} = \frac{f(a+h) - f(a)}{h}   \tag{$1$} 
 ```
 
 this equation 1 is called **forward difference approximation** to the derivative of $f$. 
