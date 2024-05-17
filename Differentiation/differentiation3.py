@@ -1,5 +1,5 @@
 ###################################################################
-#####     Backward using Forward Difference Approximation     ####
+#####     Backward Difference Approximation     ####
 ###################################################################
 
 f = lambda x: x**3 + 3*x**2 -1

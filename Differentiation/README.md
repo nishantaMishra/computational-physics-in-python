@@ -14,7 +14,7 @@ is small enough.
 
 So, we might approximate 
 ```math
-f'(a) \approx slope = \frac{\text{difference in the y-values}}{difference\, in\, the\, x-values} = \frac{f(a+h) - f(a)}{h}   \tag{$1$} 
+f'(a) \approx slope = \frac{\text{difference in the y-values}}{\text{difference in the x-values}} = \frac{f(a+h) - f(a)}{h}   \tag{$1$} 
 ```
 
 this equation 1 is called **forward difference approximation** to the derivative of $f$. 
@@ -27,7 +27,16 @@ This equation 2 is called the **backward difference approximation** to $f'(a)$
 
 Also, we can assume points $a-h$ and $a+h$ on either side of the point $a$ and write the expression of differentiation as 
 ```math
-f'(a) \approx \frac{difference\, in\, the\, y-values}{difference\, in\, the\, x-values} = \frac{f(x+h) - f(x - h)}{2h}    \tag{$1$} 
+f'(a) \approx \frac{\text{difference in the y-values}}{\text{difference in the x-values}} = \frac{f(x+h) - f(x - h)}{2h}    \tag{$1$} 
 ```
 This is called a **central difference** approximation to the derivative of $f$.
+
+### codes
+---
+- [Forward difference approximatin](differentiation1.py)
+- [Backward difference approximatin](differentiation2.py)
+- [Central difference approximatin](differentiation3.py) 
+- [Graph of derivative functions](differentiation4.py)
+In practice it is convenient to use inbuilt functions of python for finding derivatives
+
 
