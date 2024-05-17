@@ -1,5 +1,5 @@
 ##############################################################################
-##    Differntiation using Central using Forward Difference Approximation   ##
+##    Differntiation using Central Difference Approximation   ##
 ##############################################################################
 """Accuracy of this method is more than that of Forwar and Backward"""
 f = lambda x: x**3 + 3*x**2 -1
