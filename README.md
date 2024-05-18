@@ -24,7 +24,7 @@ Python codes for computational physics.
 - Differentation using built-in functions.
 ---
 ### Numerical Integration 
-- Trapezoidal Rule
+- [Trapezoidal Rule](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/Integration/trapezoidal)
 - Simpson's 1/3 Rule
 - Simpson's 3/8 Rule
 - Double Integration.

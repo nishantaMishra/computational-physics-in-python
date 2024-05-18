@@ -12,7 +12,7 @@ The **Trapezoidal Rule** estimates the integral of a function $f(x)$ over an int
 [<img src="figure2.png" width="250"/>](figure2.png) 
 
 ```math 
-\text{area of trapezium} = \frac{\text{sum of both bases}}{2} \times \text{height} = \frc{a + b}{2} h 
+\text{area of trapezium} = \frac{\text{sum of both bases}}{2} \times \text{height} = \frac{a + b}{2} h 
 ```
 Now for each sub-interval, the trapezoid rule computes the area of a trapezoid with corners at $(x_i, 0), (X_{i+1}, 0), (x_i, f(x_i))$, and $(x_{i+1}, f(x_{i+1}))$ , which is $h\frac{f(x_i) + f(x_{i+1})}{2}$
 
