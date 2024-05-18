@@ -1,14 +1,13 @@
 #####################################################
 ########        Gauss-Jordan Method         #########
-##########################################WWW########
+##################################################
 import numpy as np
 
 def GJM(a,b):   #defining GaussJordanMethod
     a = np.array(a, float)
     b = np.array(b, float)
     n = len(b)
-
-    #main loop
+    
     for k in range(n):
         #Partial Pivoting
         if np.fabs(a[k,k]) < 1.0e-12:
@@ -17,6 +16,7 @@ def GJM(a,b):   #defining GaussJordanMethod
                     a[[k,i]] = a[[i,k]]
                     b[[k,i]] = b[[i,k]]
                     break
+                    
         #Division of the pivot row
         pivot = a[k,k]
         a[k] /= pivot

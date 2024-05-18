@@ -121,10 +121,10 @@ By returning to the matrix form using this method, we can see the equations turn
 
 ```math 
 \begin{align}
-a_{1,1}x_1 + a_{1,2}x_2 +  a_{1,3}x_3  + a_{1,4}x_4  = y_1 \\ 
-a'_{2,2}x_2 +  a'_{2,3}x_3 + a'_{2,4}x_{4} = y_2 \\
-a'_{3,3}x_3 + a'_{3,4}x_{4} = y_3 \\
-a'_{4,4}x_{4} = y_4 
+a_{1,1}x_1 + a_{1,2}x_2 +  a_{1,3}x_3  + a_{1,4}x_4  = y'_1 \\ 
+a'_{2,2}x_2 +  a'_{2,3}x_3 + a'_{2,4}x_{4} = y'_2 \\
+a'_{3,3}x_3 + a'_{3,4}x_{4} = y'_3 \\
+a'_{4,4}x_{4} = y'_4 
 \end{align}
 ```
 
@@ -134,6 +134,37 @@ to solve for $x_2$ , and we are now able to solve for all $x$. We solved the sys
 this is called **backward substitution**. Note that, if A were a lower-triangular matrix, we would solve
 the system top-down by **forward substitution**.
 
-## codes
+### codes
 - [Gauss Elimination](gaussianElimination1.py) using back substitution
 - [Gauss Elimination 2](gaussianElimination2.py) This second code solves the error one might encounter due to zero elements in the matrix.
+
+## Gauss-Jordan Elimination Method
+
+Gauss–Jordan elimination solves systems of equations. It is a procedure to turn A into a diagonal form
+such that the matrix form of the equations becomes
+
+```math
+\begin{bmatrix} 
+1 & 0 & 0 & 0\\\ 0 & 1 & 0 & 0\\\ 0 & 0 & 1 & 0\\\ 0 & 0 & 0 & 1\\\
+\end{bmatrix}
+\begin{bmatrix} 
+x_1 \\\ x_2 \\\ x_3\\\ x_4\\\
+\end{bmatrix}
+= 
+\begin{bmatrix} 
+y'_1 \\\ y'_2 \\\ y'_3\\\ y'_4\\\
+\end{bmatrix}
+```
+Essentially, the equations become,
+
+```math 
+\begin{align}
+x_1 + 0 +  0  + 0  = y'_1 \\ 
+0 + x_2 + 0 + 0 = y'_2 \\
+0 + 0 + x_3 + 0 = y'_3 \\
+0 + 0 + 0 + x_{4} = y'_4 
+\end{align}
+```
+
+### code
+- [Gauss-Jordan Elimination Method](gaussJordanMethod.py) by defining a function.
