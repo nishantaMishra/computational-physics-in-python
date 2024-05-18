@@ -25,9 +25,9 @@ Python codes for computational physics.
 ---
 ### Numerical Integration 
 - [Trapezoidal Rule](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/Integration/trapezoidal)
-- Simpson's 1/3 Rule
-- Simpson's 3/8 Rule
-- Double Integration.
+- [Simpson's 1/3 Rule](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/Integration/simpsons)
+- [Simpson's 3/8 Rule](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/Integration/simpsons)
+- [Double Integration.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/Integration/simpsons)
 ---
 ### System if Linear Equations
 - Gauss Elimination Method.
