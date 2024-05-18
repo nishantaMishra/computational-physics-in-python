@@ -2,7 +2,7 @@
 ####  Gaussian Elimination Method (Zero element fix)    ##### 
 ########################################################
 """ If some of the elements are zero in our matrix then
-python interpreter starts throwing erroe message. It is
+python interpreter starts throwing error message. It is
 fixed like below """
 
 from numpy import array, zeros
@@ -20,7 +20,7 @@ x = zeros(n,float)
 
 #Elimination
 for k in range(n-1):
-    if a[k,k] == 0: # if diagonal element is detected zero. interchance it with next column
+    if a[k,k] == 0: # if diagonal element is detected zero. interchange it with next column
         for j in range(n):
             a[k,j]=a[k+1,j] = a[k,j]=a[k+1,j] 
     for i in range(k+1,n): #for every row k this starts from the row below it
@@ -32,7 +32,7 @@ for k in range(n-1):
 
 #Back Substitution
 x[n-1] = b[n-1]/a[n-1,n-1]
-for i in range(n-2,-1,-1): #fron n-2 to 0(called -1 here because last element is not included), 
+for i in range(n-2,-1,-1): #from n-2 to 0(called -1 here because last element is not included), 
     terms = 0
     for j in range(i+1,n):
         terms += a[i, j]*x[j]

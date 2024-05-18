@@ -1,5 +1,6 @@
 # computational-physics-in-python
-Python codes for computational physics.
+Python codes for computational physics. 
+This repository was created when I was working as teaching aid for computational physics course at NITS. It contains codes for solving numerical methods in python language. 
 
 ## This repository Includes Codes for
 ---
@@ -11,8 +12,8 @@ Python codes for computational physics.
 ---
 ### Interpolation
 - [Newton's Interpolation](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/newtonsDividedDifference)
-- [Lagrange Interpolaton](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/lagrangeMethod)
-- [Getting Polynomial through Newton's and Lagrange Interpolaton.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/interpolationPolynomial)
+- [Lagrange Interpolation](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/lagrangeMethod)
+- [Getting Polynomial through Newton's and Lagrange Interpolation.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/interpolationPolynomial)
 ---
 ### Regression and Curve Fitting
 - [Linear Regression.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/curveFitting/linearRegression)
