@@ -51,8 +51,33 @@ one unique solution for x, or there are infinitely many solutions for x. This fa
 text.
 
 
-> **NOTE**
+> **Case#1: No Solution Exists**
+If rank([A, y]) = rank(A) + 1 then y is linearly independent
+from the columns of A. Therefore, because y is not in the range of A, by definition there cannot
+be an x that satisfies the equation. Thus, comparing rank([A, y]) and rank(A) provides an easy
+way to check if there are no solutions to a system of linear equations.
 
-It works with almost all markdown flavours (the below blank line matters).
+> **Case#2: There is a unique solution**
+If rank([A, y]) = rank(A), then y can be written as a
+linear combination of the columns of A, and there is at least one solution for the matrix equation.
+For there to be only one solution, rank(A) = n must also be true. In other words, the number of
+equations must be exactly equal to the number of unknowns. To see why this property results in a
+unique solution, consider the following three relationships between m and n : m < n, m = n, and
+m > n.
 
----
+ For the case m < n, rank(A) = n cannot possibly be true because this means we have a “fat”
+matrix with fewer equations than unknowns. Thus, we do not need to consider this subcase.
+
+ When m = n and rank(A) = n, A is square and invertible. Since the inverse of a matrix is
+unique, the matrix equation Ax = y can be solved by multiplying each side of the equation on
+the left by A−1 . This results in A−1 Ax = A−1 y → I x = A−1 y → x = A−1 y, which gives the
+unique solution to the equation.
+
+ If m > n, then there are more equations than unknowns; however, if rank(A) = n, then it is
+possible to choose n equations (i.e., rows of A) such that if these equations are satisfied, then
+the remaining m − n equations will also be satisfied. In other words, they are redundant. If the
+m − n redundant equations are removed from the system, then the resulting system has an A
+matrix that is n × n and invertible. These facts are not proven in this text. The new system then
+has a unique solution, which is valid for the whole system.
+
+
