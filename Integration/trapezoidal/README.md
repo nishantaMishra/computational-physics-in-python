@@ -9,9 +9,10 @@ Denoting all the points in $x$ by $x_i$, where $x+0 = a$ and $x_n = b$. Note tha
 
 The **Trapezoidal Rule** estimates the integral of a function $f(x)$ over an interval $[a,b]$ by approximating the region under the curve as a series of trapezoids rather than using the actual curve. The area of each trapezoid is then summed to give the approximate value of the integral. This approximation of the integral to an arbitrary function is shown in Fig. 1.
 
-#[<img src="figure2.png" width="250"/>](figure2.png) 
+[<img src="figure2.png" width="250"/>](figure2.png) 
+
 ```math 
-\text{area of trapezium} = \frac{\text{sum of both bases}}{2} \text{height} 
+\text{area of trapezium} = \frac{\text{sum of both bases}}{2} \times \text{height} = \frc{a + b}{2} h 
 ```
 Now for each sub-interval, the trapezoid rule computes the area of a trapezoid with corners at $(x_i, 0), (X_{i+1}, 0), (x_i, f(x_i))$, and $(x_{i+1}, f(x_{i+1}))$ , which is $h\frac{f(x_i) + f(x_{i+1})}{2}$
 
@@ -33,3 +34,28 @@ This expression can also be expressed in terms of $a$ and $b$
 ```math
 \int_a^b f(x) dx \approx \frac{b-a}{2n}  \left(  f(a) + 2 \sum_{i=1}^{n-1} f(a + ih) + f(b) \right) 
 ```
+
+### Code
+- [Code](trapezoidal1.py)
+- [Solving trapezoidal rule by defining a function](trapezoidal2.py)
+
+**Usage** : The user should edit values of $a, b \text{and} f(x)$ in the code. 
+
+### Example
+Edit 
+```bash
+def f(x):
+    return math.sin(x)
+a = 0
+b = 1
+n = 20 
+```
+The code can then be executed as following
+
+```bash
+└─# python3 trapezoidal2.py
+The approximate value of the integral is: 0.4596019197882473
+```
+
+
+
