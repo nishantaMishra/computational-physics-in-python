@@ -50,7 +50,7 @@ This repository was created when I was working as teaching aid for computational
 - Square pattern of stars.
 - Downward Half Pyramid.
 - Full Downward Pyramid.
-#### A simple calculator with GUI.
-#### Random Number Generator.
-#### Finding average (Mean, Median, Mode)
+#### [A simple calculator with GUI](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/calculator.py)
+#### [Random Number Generator](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/randomNumberGenerator.py)
+#### [Finding average (Mean, Median, Mode)](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/average.py)
 
