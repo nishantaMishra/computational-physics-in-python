@@ -64,20 +64,29 @@ For there to be only one solution, rank(A) = n must also be true. In other words
 equations must be exactly equal to the number of unknowns. To see why this property results in a
 unique solution, consider the following three relationships between m and n : m < n, m = n, and
 m > n.
-
- For the case m < n, rank(A) = n cannot possibly be true because this means we have a “fat”
+- For the case m < n, rank(A) = n cannot possibly be true because this means we have a “fat”
 matrix with fewer equations than unknowns. Thus, we do not need to consider this subcase.
-
- When m = n and rank(A) = n, A is square and invertible. Since the inverse of a matrix is
+- When m = n and rank(A) = n, A is square and invertible. Since the inverse of a matrix is
 unique, the matrix equation Ax = y can be solved by multiplying each side of the equation on
 the left by A−1 . This results in A−1 Ax = A−1 y → I x = A−1 y → x = A−1 y, which gives the
 unique solution to the equation.
-
- If m > n, then there are more equations than unknowns; however, if rank(A) = n, then it is
+- If m > n, then there are more equations than unknowns; however, if rank(A) = n, then it is
 possible to choose n equations (i.e., rows of A) such that if these equations are satisfied, then
 the remaining m − n equations will also be satisfied. In other words, they are redundant. If the
 m − n redundant equations are removed from the system, then the resulting system has an A
 matrix that is n × n and invertible. These facts are not proven in this text. The new system then
 has a unique solution, which is valid for the whole system.
+
+> **Case#3: There are infinitely many solutions**
+If rank([A, y]) = rank(A), then y is in the
+range of A, and there is at least one solution for the matrix equation; however, if rank(A) < n,
+then there are infinitely many solutions. Although it is not shown here, if rank(A) < n, then there
+is at least one nonzero vector, n, that is in the null space of A (Actually, there are infinitely
+many null space vectors under these conditions.). If n is in the nullspace of A, then An = 0 by
+definition. Now if x ∗ is a solution to the matrix equation Ax = y, then, necessarily, Ax ∗ = y;
+however, Ax ∗ + An = y or A(x ∗ + n) = y. Therefore, x ∗ + n is also a solution for Ax = y. In
+fact, since A is a linear transformation, x ∗ + αn is a solution for any real number α (you should
+try to show this on your own). Since there are infinitely many acceptable values for α, there are
+infinitely many solutions for the matrix equation.
 
 
