@@ -30,7 +30,7 @@ where $a_{i,j}$ are real numbers. This system of linear equations can also be re
 
 ```math
 \begin{bmatrix} 
-a_{1,1} & a_{1,1} & ... & a_{1,n}\\\ a_{2,1} & a_{2,2} & ... & a_{2,n}\\\ \vdots & \vdots & \ddots & \vdots\\\ a_{m,1} & a_{m,2} & ... & a_{m,n} \\\
+a_{1,1} & a_{1,2} & ... & a_{1,n}\\\ a_{2,1} & a_{2,2} & ... & a_{2,n}\\\ \vdots & \vdots & \ddots & \vdots\\\ a_{m,1} & a_{m,2} & ... & a_{m,n} \\\
 \end{bmatrix}
 \begin{bmatrix} 
 x_1 \\\ x_2 \\\ \vdots\\\ x_n\\\
@@ -98,3 +98,21 @@ following methods.
 - [Jacobi's Method]
 - [Gauss-Seidel's Method]
 - [Gauss-Jordan Method]
+
+## Gauss Elimination Method
+The Gauss elimination method is a procedure that turns the matrix A into an upper-triangular form
+to solve the system of equations. Let us use a system of four equations and four variables to illustrate
+the idea. Gauss elimination essentially turns the system of equations into
+
+```math
+\begin{bmatrix} 
+a_{1,1} & a_{1,2} & a_{1,3} & a_{1,4}\\\ 0 & a'_{2,2} & a'_{2,3} & a'_{2,4}\\\ 0 & 0 & a'_{3,3} & a'_{3,4}\\\ 0 & 0 & 0 & a'_{4,4} \\\
+\end{bmatrix}
+\begin{bmatrix} 
+x_1 \\\ x_2 \\\ x_3\\\ x_4\\\
+\end{bmatrix}
+= 
+\begin{bmatrix} 
+y'_1 \\\ y'_2 \\\ \y'_3\\\ y'_4\\\
+\end{bmatrix}
+```
