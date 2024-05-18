@@ -31,7 +31,7 @@ This repository was created when I was working as teaching aid for computational
 - [Double Integration.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/Integration/simpsons)
 ---
 ### System if Linear Equations
-- Gauss Elimination Method.
+- [Gauss Elimination Method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
 - Diagonal Dominance.
 - Jacobi's Method.
 - Gauss-Seidel's Method.
