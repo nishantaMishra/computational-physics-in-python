@@ -32,10 +32,10 @@ This repository was created when I was working as teaching aid for computational
 ---
 ### System if Linear Equations
 - [Gauss Elimination Method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
-- Diagonal Dominance.
-- Jacobi's Method.
-- Gauss-Seidel's Method.
-- Gauss-Jordan Method.
+- [Diagonal Dominance.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
+- [Jacobi's Method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
+- [Gauss-Seidel's Method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
+- [Gauss-Jordan Method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
 ---
 ### Solution of Ordinary Differential Equations
 - Euler's Method
