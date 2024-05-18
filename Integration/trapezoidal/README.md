@@ -39,7 +39,7 @@ This expression can also be expressed in terms of $a$ and $b$
 - [Code](trapezoidal1.py)
 - [Solving trapezoidal rule by defining a function](trapezoidal2.py)
 
-**Usage** : The user should edit values of $a, b \text{and} f(x)$ in the code. 
+**Usage** : The user should edit values of $a, b \text{ and } f(x)$ in the code. 
 
 ### Example
 Edit 
