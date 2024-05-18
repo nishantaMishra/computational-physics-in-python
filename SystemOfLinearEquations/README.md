@@ -36,10 +36,7 @@ a_{2,1} & a_{2,2} & ... & a_{2,n}\\\
 a_{m,1} & a_{m,2} & ... & a_{m,n} \\\
 \end{bmatrix}
 \begin{bmatrix} 
-x_1\\\
-x_2\\\
-\vdots\\\
-x_n\\\
+x_1 \\\ x_2\\\ \vdots\\\ x_n\\\
 \end{bmatrix}
 = 
 \begin{bmatrix} 
