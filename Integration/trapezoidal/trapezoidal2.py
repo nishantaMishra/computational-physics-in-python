@@ -33,7 +33,6 @@ def trapezoidal(f, a, b, n):
 
 def f(x):
     return math.sin(x)
-
 a = 0
 b = 1
 n = 20 
