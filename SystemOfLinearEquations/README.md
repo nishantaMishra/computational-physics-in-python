@@ -11,23 +11,26 @@ where, $a_i$ are scalars, and $x_i$ are unknown variables in Real space, and y i
 
 A **system of linear equations** is a set of linear equations that share the same variables. consider the following system of equations;
 ```math 
-a_{1,1}x_1 + a_{1,2}x_2 +  a_{1,3}x_3 + ... + a_{1,n-1}x_{n-1} + a_{1,n}x_n  = y_1
+a_{1,1}x_1 + a_{1,2}x_2 +  a_{1,3}x_3  + ... + a_{1,n-1}x_{n-1} + a_{1,n}x_n  = y_1
 ```
 ```math
-a_{2,1}x_1 + a_{2,2}x_2 +  a_{3,3}x_3 + ... + a_{2,n-1}x_{n-1} + a_{2,n}x_n  = y_2
+a_{2,1}x_1 + a_{2,2}x_2 +  a_{3,3}x_3  + ... + a_{2,n-1}x_{n-1} + a_{2,n}x_n  = y_2
 ```
 ```math
 ...
 ```
 ```math
-a_{{m-1},1}x_1 + a_{{m-1},2}x_2 +  a_{{m-1},3}x_3 + ... + a_{{m-1},n-1}x_{n-1} + a_{{m-1},n}x_n  = y_{m-1}
+a_{{m-1},1}x_1  +  a_{{m-1},2}x_2  +  a_{{m-1},3}x_3  + ... +  a_{{m-1},n-1}x_{n-1} + a_{{m-1},n}x_n  = y_{m-1}
 ```
 ```math
-a_{{m},1}x_1 + a_{{m},2}x_2 +  a_{{m},3}x_3 + ... + a_{{m},n-1}x_{n-1} + a_{{m},n}x_n  = y_{m}
+a_{{m},1}x_1 + a_{{m},2}x_2 +  a_{{m},3}x_3  + ... +  a_{{m},n-1}x_{n-1} + a_{{m},n}x_n  = y_{m}
 ```
 
 where $a_{i,j}$ are real numbers. This system of linear equations can also be represented in matrix notation as:
 ```math
-\vec{v} = \begin{bmatrix} X \\\ Y \end{bmatrix}
+\vec{v} = \begin{bmatrix} 
+X & X2\\\ 
+Y & Y2 
+\end{bmatrix}
 ```
 
