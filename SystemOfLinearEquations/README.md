@@ -30,13 +30,10 @@ where $a_{i,j}$ are real numbers. This system of linear equations can also be re
 
 ```math
 \begin{bmatrix} 
-a_{1,1} & a_{1,1} & ... & a_{1,n}\\\ 
-a_{2,1} & a_{2,2} & ... & a_{2,n}\\\
-\vdots & \vdots & \ddots & \vdots\\\
-a_{m,1} & a_{m,2} & ... & a_{m,n} \\\
+a_{1,1} & a_{1,1} & ... & a_{1,n}\\\ a_{2,1} & a_{2,2} & ... & a_{2,n}\\\ \vdots & \vdots & \ddots & \vdots\\\ a_{m,1} & a_{m,2} & ... & a_{m,n} \\\
 \end{bmatrix}
 \begin{bmatrix} 
-x_1 \\\ x_2\\\ \vdots\\\ x_n\\\
+x_1 \\\ x_2 \\\ \vdots\\\ x_n\\\
 \end{bmatrix}
 = 
 \begin{bmatrix} 
