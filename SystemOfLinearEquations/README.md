@@ -122,19 +122,8 @@ By returning to the matrix form using this method, we can see the equations turn
 ```math 
 \begin{align}
 a_{1,1}x_1 + a_{1,2}x_2 +  a_{1,3}x_3  + a_{1,4}x_4  = y_1 \\ 
-a_{2,2}x_2 +  a_{2,3}x_3 + a_{2,4}x_{4} = y_2
+a'_{2,2}x_2 +  a'_{2,3}x_3 + a'_{2,4}x_{4} = y_2 \\
+a'_{3,3}x_3 + a'_{3,4}x_{4} = y_3 \\
+a'_{4,4}x_{4} = y_4 
 \end{align}
-
-```
-```math
-
-```
-```math
-...
-```
-```math
-a_{{m-1},1}x_1  +  a_{{m-1},2}x_2  +  a_{{m-1},3}x_3  + ... +  a_{{m-1},n-1}x_{n-1} + a_{{m-1},n}x_n  = y_{m-1}
-```
-```math
-a_{{m},1}x_1 + a_{{m},2}x_2 +  a_{{m},3}x_3  + ... +  a_{{m},n-1}x_{n-1} + a_{{m},n}x_n  = y_{m}
 ```
