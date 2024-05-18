@@ -106,13 +106,35 @@ the idea. Gauss elimination essentially turns the system of equations into
 
 ```math
 \begin{bmatrix} 
-a_{1,1} & a_{1,2} & a_{1,3} & a_{1,4}\\\ 0 & a'_{2,2} & a'_{2,3} & a'_{2,4}\\\ 0 & 0 & a'_{3,3} & a'_{3,4}\\\ 0 & 0 & 0 & a'_{4,4} \\\
+a_{1,1} & a_{1,2} & a_{1,3} & a_{1,4}\\\ 0 & a'_{2,2} & a'_{2,3} & a'_{2,4}\\\ 0 & 0 & a'_{3,3} & a'_{3,4}\\\ 0 & 0 & 0 & a'_{4,4}\\\
 \end{bmatrix}
 \begin{bmatrix} 
 x_1 \\\ x_2 \\\ x_3\\\ x_4\\\
 \end{bmatrix}
 = 
 \begin{bmatrix} 
-y'_1 \\\ y'_2 \\\ \y'_3\\\ y'_4\\\
+y'_1 \\\ y'_2 \\\ y'_3\\\ y'_4\\\
 \end{bmatrix}
+```
+
+By returning to the matrix form using this method, we can see the equations turn into:
+
+```math 
+\begin{align}
+a_{1,1}x_1 + a_{1,2}x_2 +  a_{1,3}x_3  + a_{1,4}x_4  = y_1 \\ 
+    a_{2,1}x_1 + a_{2,2}x_2 +  a_{3,3}x_3  + ... + a_{2,n-1}x_{n-1} + a_{2,n}x_n  = y_2
+\end{align}
+
+```
+```math
+
+```
+```math
+...
+```
+```math
+a_{{m-1},1}x_1  +  a_{{m-1},2}x_2  +  a_{{m-1},3}x_3  + ... +  a_{{m-1},n-1}x_{n-1} + a_{{m-1},n}x_n  = y_{m-1}
+```
+```math
+a_{{m},1}x_1 + a_{{m},2}x_2 +  a_{{m},3}x_3  + ... +  a_{{m},n-1}x_{n-1} + a_{{m},n}x_n  = y_{m}
 ```
