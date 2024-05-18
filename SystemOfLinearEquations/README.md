@@ -45,14 +45,13 @@ If we carry out the matrix multiplication, we will see that we arrive back at th
 ## Solution of system of Linear Equations.
 Consider a system of linear equations in matrix form, Ax = y, where A is an m × n matrix. Recall that
 this means there are m equations and n unknowns in our system. A solution to this system of linear
-
 equations is an x in Real space that satisfies the matrix form equation. Depending on the values that populate
 A and y, there are three distinct possible solutions for x. Either there is no solution for x, or there is
 one unique solution for x, or there are infinitely many solutions for x. This fact is not shown in this
 text.
 
----
-**NOTE**
+
+> **NOTE**
 
 It works with almost all markdown flavours (the below blank line matters).
 
