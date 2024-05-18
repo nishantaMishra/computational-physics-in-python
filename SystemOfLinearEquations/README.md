@@ -127,3 +127,13 @@ a'_{3,3}x_3 + a'_{3,4}x_{4} = y_3 \\
 a'_{4,4}x_{4} = y_4 
 \end{align}
 ```
+
+Now, $x_4$ can be easily solved for by dividing both sides by $a'_{4,4}$ , and then by substituting the result
+into the third equation to solve for $x_3$ . With $x_3$ and $x_4$ , we can substitute them into the second equation
+to solve for $x_2$ , and we are now able to solve for all $x$. We solved the system of equations bottom-up;
+this is called **backward substitution**. Note that, if A were a lower-triangular matrix, we would solve
+the system top-down by **forward substitution**.
+
+## codes
+- [Gauss Elimination](gaussianElimination1.py) using back substitution
+- [Gauss Elimination 2](gaussianElimination2.py) This second code solves the error one might encounter due to zero elements in the matrix.
