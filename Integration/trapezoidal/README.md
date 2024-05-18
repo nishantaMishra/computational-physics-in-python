@@ -4,11 +4,12 @@
 
 Problem of numerical integration is to approximate the integral of $f(x)$ over the total interval $[a, b]$. To accomplish this goal, we assume that the interval has been divided into a numeral grid, x, consisting of $n+1$ points with spacing, $h = \frac{b-a}{n}$. 
 Denoting all the points in $x$ by $x_i$, where $x+0 = a$ and $x_n = b$. Note that there are n+1 grid points because the count starts at $x_0$. 
+
 [<img src="figure1.png" width="250"/>](figure1.png) 
+
 The **Trapezoidal Rule** estimates the integral of a function $f(x)$ over an interval $[a,b]$ by approximating the region under the curve as a series of trapezoids rather than using the actual curve. The area of each trapezoid is then summed to give the approximate value of the integral. This approximation of the integral to an arbitrary function is shown in Fig. 1.
 
-
-[<img src="figure2.png" width="250"/>](figure2.png) 
+#[<img src="figure2.png" width="250"/>](figure2.png) 
 ```math 
 \text{area of trapezium} = \frac{\text{sum of both bases}}{2} \text{height} 
 ```
