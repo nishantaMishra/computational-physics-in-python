@@ -37,10 +37,7 @@ x_1 \\\ x_2 \\\ \vdots\\\ x_n\\\
 \end{bmatrix}
 = 
 \begin{bmatrix} 
-y_1\\\
-y_2\\\
-\vdots\\\
-y_n\\\
+y_1 \\\ y_2 \\\ \vdots\\\ y_n\\\
 \end{bmatrix}
 ```
 
