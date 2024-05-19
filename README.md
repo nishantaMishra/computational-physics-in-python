@@ -38,9 +38,9 @@ This repository was created when I was working as teaching aid for computational
 - [Gauss-Jordan Method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
 ---
 ### Solution of Ordinary Differential Equations
-- Euler's Method
-- Second Order Runge-Kutta Method.
-- Fourth Order Runge-Kutta Method.
+- [Euler's Method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/ordinaryDifferntialEquations)
+- [Second Order Runge-Kutta Method.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/ordinaryDifferntialEquations)
+- [Fourth Order Runge-Kutta Method.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/ordinaryDifferntialEquations)
 ---
 
 ### Miscellaneous
