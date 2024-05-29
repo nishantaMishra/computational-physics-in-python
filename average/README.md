@@ -16,8 +16,11 @@ Median could be found by following steps,
 1. Sort the data from smallest to largest.
 2. Median is the middle number of the sorted set of n values.
 ```math
-\text{if n is odd} ; \text{median} = x_{\frac{n + 1}{2}}  \\ 
+\begin{align}
+    \text{if n is odd} ; \text{median} = x_{\frac{n + 1}{2}}  \\ 
 \text{if n is even}; \text{median} = \frac{x_{\frac{n}{2}}  + x_{\frac{n}{2} + 1}}{2}
+\end{align}
+
 ```
 ### Mode
 Mode refers to the most occurring number/value in the given set.
