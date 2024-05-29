@@ -1,4 +1,4 @@
-cd# Finding Average (Mean, Median, Mode)
+# Finding Average (Mean, Median, Mode)
 
 Arithmetic mean, median and mode are the most common measures of central tendency. 
 
