@@ -17,8 +17,8 @@ Median could be found by following steps,
 2. Median is the middle number of the sorted set of n values.
 ```math
 \begin{align}
-    \text{if n is odd} ; \text{median} = x_{\frac{n + 1}{2}}  \\ 
-\text{if n is even}; \text{median} = \frac{x_{\frac{n}{2}}  + x_{\frac{n}{2} + 1}}{2}
+\text{if n is odd} ; \quad \text{median} = x_{\frac{n + 1}{2}}  \\ 
+\text{if n is even}; \quad \text{median} = \frac{x_{\frac{n}{2}}  + x_{\frac{n}{2} + 1}}{2}
 \end{align}
 
 ```
