@@ -30,7 +30,7 @@ This repository was created when I was working as teaching aid for computational
 - [Simpson's 3/8 Rule](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/Integration/simpsons)
 - [Double Integration.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/Integration/simpsons)
 ---
-### System if Linear Equations
+### System of Linear Equations
 - [Gauss Elimination Method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
 - [Diagonal Dominance.](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
 - [Jacobi's Method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/SystemOfLinearEquations)
