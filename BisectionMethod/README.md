@@ -56,3 +56,5 @@ for bisection in range(1,101):
 print('The root: %0.5f' %x1)
 print('The number of bisections:%d ' %bisection)
 ```
+
+Note: Bisection method is very robust in one dimensions albeit slower. If initial guess is close enough to the root and the function is smooth enough then Newton-Raphson method converges much faster. 
