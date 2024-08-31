@@ -27,7 +27,7 @@ where we start the iteration at k = 2, since we need two initial guesses as star
 
 One might wonder where the name “secant” comes from. This word secant (from the Latin secare, “to cut”.) refers to a
 straight line that cuts a curve in two or more points. You can understand why the method
-is so named if you think about the geometric interpretation of our prescription in Eq. $1$ above
+is so named if you think about the geometric interpretation of our prescription in Eq. $\eqref{eq: test}$ above
 From elementary geometry, you may recall that the line that goes through the two points
 $(x_0 , y_0 )$ and $(x_1 , y_1)$ is: 
 ```math
