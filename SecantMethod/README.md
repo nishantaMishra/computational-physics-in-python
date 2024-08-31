@@ -19,7 +19,7 @@ or by hand, but by whatever values our latest iterates have; this implies that t
 changes at every iteration.
 Combining the last two equations, our prescription for the secant method is:
 ```math
-x^{(k)} = x^{(k-1)} - \frac{x^{(k-1)} - x^{(k-2)}}{f(x^{(k-1))} - f(x^{(k-2)})} * f(x^{(k-1)}) \quad \quad k = 2, 3, 4, ...   \tag{$1$}
+x^{(k)} = x^{(k-1)} - \frac{x^{(k-1)} - x^{(k-2)}}{f(x^{(k-1))} - f(x^{(k-2)})} * f(x^{(k-1)}) \quad \quad k = 2, 3, 4, ... 
 ```
 where we start the iteration at k = 2, since we need two initial guesses as starting points.
 
