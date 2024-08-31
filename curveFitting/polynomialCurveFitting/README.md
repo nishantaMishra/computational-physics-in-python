@@ -31,10 +31,9 @@ and \quad \quad
          \end{bmatrix}
 \end{align}
 
-\tag{$1$}
 ```
 in the above matrices $\sum = \sum_{i=1}^m$. 
-(1) is a system of linear equations. Here, our task can be realised in two steps. First, to calculate all the coefficients and then solve the system using a linear system solving technique like Gauss-Elimination Method.
+Above set of equations is a system of linear equations. Here, our task can be realised in two steps. First, to calculate all the coefficients and then solve the system using a linear system solving technique like Gauss-Elimination Method.
 
 ### Codes
 - [polynomialfit1.py](https://github.com/nishantaMishra/computational-physics-in-python/blob/main/curveFitting/polynomialCurveFitting/polynomialfit1.py) : Non-interactive program. Data to be solved is hard-coded in it.
