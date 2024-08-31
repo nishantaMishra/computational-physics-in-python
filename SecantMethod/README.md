@@ -1,3 +1,10 @@
+  TeX: {
+    extensions: ['AMSmath.js', 'AMSsymbols.js', 'noErrors.js', 'noUndefined.js'],
+    equationNumbers: {
+      autoNumber: "AMS"
+    }
+
+
 # Root Finding
 
 ## Secant Method
