@@ -42,12 +42,16 @@ f(x,y)=xy
 
 Initial condition: $(x_0 ,y_0) = (0,1)$
 Step size: $ℎ = 0.1$
+
 Iteration 1:
+
 ```math
-y_1 = y_0 + h \dot f(x_0, y_0) = 1 + 0.1 \dot (0×1) = 1
+y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot (0×1) = 1
 ​```
-​
- +h=0+0.1=0.1
+```math
+x_1 = x_0 + h = 0 + 0.1 = 0.1
+```
+
 Iteration 2:
 
 𝑦
