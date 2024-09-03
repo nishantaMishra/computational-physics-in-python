@@ -14,270 +14,38 @@ Here, $y$ is the unknown function of $x$, and $f(x,y)$ is a given function that 
 
 
 ### Steps of Euler's Method:
-Choose a step size h:
-The interval [x_0 ,x_n ] is divided into smaller sub-intervals of width h. The step size h determines how much you move along the x-axis in each iteration.
+```mermaid
+graph TD
+    A["Start: Given ODE dy/dx = f(x, y) and initial condition y(x0) = y0"] --> B[Choose step size h]
+    B --> C["Set initial values: x = x0, y = y0"]
+    C --> D["Calculate slope: dy = f(x, y)"]
+    D --> E["Update y: y = y + h * dy"]
+    E --> F["Update x: x = x + h"]
+    F --> G{"Is x < xn?"}
+    G --> |Yes| D
+    G --> |No| H["End: Solution approximated over the interval [x0, xn]"]
+```
 
 
-Starting Point:
-
-Begin at the initial condition 
-(
-𝑥
-0
-,
-𝑦
-0
-)
-(x 
-0
-​
- ,y 
-0
-​
- ).
-Iterative Process:
-
-For each step 
-𝑖
-i (from 0 to 
-𝑛
-−
-1
-n−1):
-𝑦
-𝑖
-+
-1
-=
-𝑦
-𝑖
-+
-ℎ
-⋅
-𝑓
-(
-𝑥
-𝑖
-,
-𝑦
-𝑖
-)
-y 
-i+1
-​
- =y 
-i
-​
- +h⋅f(x 
-i
-​
- ,y 
-i
-​
- )
-𝑥
-𝑖
-+
-1
-=
-𝑥
-𝑖
-+
-ℎ
-x 
-i+1
-​
- =x 
-i
-​
- +h
-This process is repeated until the desired value of 
-𝑥
-x is reached.
-Visualization:
-Imagine starting at a point 
-(
-𝑥
-0
-,
-𝑦
-0
-)
-(x 
-0
-​
- ,y 
-0
-​
- ) on the curve 
-𝑦
-(
-𝑥
-)
-y(x).
-The slope of the tangent to the curve at this point is given by 
-𝑓
-(
-𝑥
-0
-,
-𝑦
-0
-)
-f(x 
-0
-​
- ,y 
-0
-​
- ).
-Euler's Method approximates the curve by moving in the direction of this slope for a small distance 
-ℎ
-h, leading to a new point 
-(
-𝑥
-1
-,
-𝑦
-1
-)
-(x 
-1
-​
- ,y 
-1
-​
- ).
-This process is repeated, moving from point to point, to trace out an approximation to the curve.
 Example
 Suppose you want to solve the differential equation:
 
-𝑑
-𝑦
-𝑑
-𝑥
-=
-𝑥
-𝑦
-dx
-dy
-​
- =xy
-with the initial condition 
-𝑦
-(
-0
-)
-=
-1
-y(0)=1, over the interval 
-[
-0
-,
-2
-]
-[0,2].
+```math
+\frac{dx}{dy} = xy
+with the initial condition y(0)=1, over the interval [0,2].
 
 Applying Euler's Method:
 Given:
-
-𝑓
-(
-𝑥
-,
-𝑦
-)
-=
-𝑥
-𝑦
+```math
 f(x,y)=xy
-Initial condition: 
-(
-𝑥
-0
-,
-𝑦
-0
-)
-=
-(
-0
-,
-1
-)
-(x 
-0
-​
- ,y 
-0
-​
- )=(0,1)
-Step size: 
-ℎ
-=
-0.1
-h=0.1
-Iteration 1:
+```
 
-𝑦
-1
-=
-𝑦
-0
-+
-ℎ
-⋅
-𝑓
-(
-𝑥
-0
-,
-𝑦
-0
-)
-=
-1
-+
-0.1
-⋅
-(
-0
-×
-1
-)
-=
-1
-y 
-1
-​
- =y 
-0
-​
- +h⋅f(x 
-0
-​
- ,y 
-0
-​
- )=1+0.1⋅(0×1)=1
-𝑥
-1
-=
-𝑥
-0
-+
-ℎ
-=
-0
-+
-0.1
-=
-0.1
-x 
-1
-​
- =x 
-0
+Initial condition: $(x_0 ,y_0) = (0,1)$
+Step size: $ℎ = 0.1$
+Iteration 1:
+```math
+y_1 = y_0 + h \dot f(x_0, y_0) = 1 + 0.1 \dot (0×1) = 1
+​```
 ​
  +h=0+0.1=0.1
 Iteration 2:
@@ -374,14 +142,3 @@ flowchart TD
     C -->|No| I[End]
 ```
 
-```mermaid
-graph TD
-    A["Start: Given ODE dy/dx = f(x, y) and initial condition y(x0) = y0"] --> B[Choose step size h]
-    B --> C["Set initial values: x = x0, y = y0"]
-    C --> D["Calculate slope: dy = f(x, y)"]
-    D --> E["Update y: y = y + h * dy"]
-    E --> F["Update x: x = x + h"]
-    F --> G{"Is x < xn?"}
-    G --> |Yes| D
-    G --> |No| H["End: Solution approximated over the interval [x0, xn]"]
-```
