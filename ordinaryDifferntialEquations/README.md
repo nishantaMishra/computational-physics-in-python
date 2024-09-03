@@ -377,11 +377,11 @@ flowchart TD
 ```mermaid
 graph TD
     A["Start: Given ODE dy/dx = f(x, y) and initial condition y(x0) = y0"] --> B[Choose step size h]
-    B --> C[Set initial values: x = x0, y = y0]
-    C --> D[Calculate slope: dy = f(x, y)]
-    D --> E[Update y: y = y + h * dy]
-    E --> F[Update x: x = x + h]
-    F --> G{Is x < xn?}
+    B --> C["Set initial values: x = x0, y = y0"]
+    C --> D["Calculate slope: dy = f(x, y)"]
+    D --> E["Update y: y = y + h * dy"]
+    E --> F["Update x: x = x + h"]
+    F --> G{"Is x < xn?"}
     G --> |Yes| D
-    G --> |No| H[End: Solution approximated over the interval [x0, xn]]
+    G --> |No| H["End: Solution approximated over the interval [x0, xn]"]
 ```
