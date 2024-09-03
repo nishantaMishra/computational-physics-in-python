@@ -47,11 +47,10 @@ Iteration 1:
 
 ```math
 y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot (0×1) = 1
+
+x_1 = x_0 + h = 0 + 0.1 = 0.1
 ​```
 
-```math
-x_1 = x_0 + h = 0 + 0.1 = 0.1
-```
 
 Iteration 2:
 
