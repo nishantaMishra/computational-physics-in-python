@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A[Start] --> B[Initialize x, y, h, n]
     B --> C{Is i < n?}
@@ -8,3 +9,4 @@ flowchart TD
     G --> H[Increment i by 1]
     H --> C
     C -->|No| I[End]
+```
