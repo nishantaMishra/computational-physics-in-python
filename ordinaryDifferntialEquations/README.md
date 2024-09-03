@@ -1,46 +1,23 @@
 Euler's Method is a straightforward numerical technique for solving ordinary differential equations (ODEs) that are difficult or impossible to solve analytically. It's particularly useful when you have an initial value problem, where the goal is to find the value of a function given its derivative and an initial condition.
 
-What is Euler's Method?
+### What is Euler's Method?
 Euler's Method approximates the solution to an ODE by stepping forward in small increments from the initial value. The basic idea is to use the slope (derivative) of the function at a known point to estimate the value of the function at the next point.
 
-Mathematical Explanation
+
 Consider an initial value problem of the form:
 
 ```math
 \frac{dy}{dx} = f(x,y), \quad y(x_0)=y_0
 ```
 ​
- 
-Here, $y$ is the unknown function of $x$, and $f(x,y)$ is a given function that defines the derivative of y with respect to x. The goal is to find  y over some interval, starting from the initial condition $y(x_0) = y_0$
-​
- .
+Here, $y$ is the unknown function of $x$, and $f(x,y)$ is a given function that defines the derivative of y with respect to x. The goal is to find  y over some interval, starting from the initial condition $y(x_0) = y_0$ .
 
-Steps of Euler's Method:
-Choose a step size 
-ℎ
-h:
 
-The interval 
-[
-𝑥
-0
-,
-𝑥
-𝑛
-]
-[x 
-0
-​
- ,x 
-n
-​
- ] is divided into smaller sub-intervals of width 
-ℎ
-h. The step size 
-ℎ
-h determines how much you move along the 
-𝑥
-x-axis in each iteration.
+### Steps of Euler's Method:
+Choose a step size h:
+The interval [x_0 ,x_n ] is divided into smaller sub-intervals of width h. The step size h determines how much you move along the x-axis in each iteration.
+
+
 Starting Point:
 
 Begin at the initial condition 
@@ -395,4 +372,16 @@ flowchart TD
     G --> H[Increment i by 1]
     H --> C
     C -->|No| I[End]
+```
+
+```mermaid
+graph TD
+    A[Start: Given ODE dy/dx = f(x, y) and initial condition y(x0) = y0] --> B[Choose step size h]
+    B --> C[Set initial values: x = x0, y = y0]
+    C --> D[Calculate slope: dy = f(x, y)]
+    D --> E[Update y: y = y + h * dy]
+    E --> F[Update x: x = x + h]
+    F --> G{Is x < xn?}
+    G --> |Yes| D
+    G --> |No| H[End: Solution approximated over the interval [x0, xn]]
 ```
