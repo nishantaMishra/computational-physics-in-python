@@ -14,17 +14,6 @@ Here, $y$ is the unknown function of $x$, and $f(x,y)$ is a given function that 
 
 
 ### Steps of Euler's Method:
-```mermaid
-graph TD
-    A["Start: Given ODE \n dy/dx = f(x, y) \n and initial condition y(x0) = y0"] --> B[Choose step size h]
-    B --> C["Set initial values: x = x0, y = y0"]
-    C --> D["Calculate slope: dy = f(x, y)"]
-    D --> E["Update y: y = y + h * dy"]
-    E --> F["Update x: x = x + h"]
-    F --> G{"Is x < xn?"}
-    G --> |Yes| D
-    G --> |No| H["End: Solution approximated over the interval [x0, xn]"]
-```
 
 ```mermaid
 graph TD
