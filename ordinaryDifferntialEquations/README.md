@@ -28,21 +28,15 @@ graph TD
 
 ```mermaid
 graph TD
-    classDef wrapText fill:#f9f,stroke:#333,stroke-width:2px,text-align:left;
-    
-    A["Start: Given ODE dy/dx = f(x, y) and initial condition y(x0) = y0"] --> B[Choose step size h]
-    B --> C["Set initial values: x = x0, y = y0"]
-    C --> D["Calculate slope: dy = f(x, y)"]
-    D --> E["Update y: y = y + h * dy"]
-    E --> F["Update x: x = x + h"]
-    F --> G{"Is x < xn?"}
+    A["`Start: Given ODE dy/dx = f(x, y) and initial condition y(x0) = y0`"] --> B["`Choose step size h`"]
+    B --> C["`Set initial values: x = x0, y = y0`"]
+    C --> D["`Calculate slope: dy = f(x, y)`"]
+    D --> E["`Update y: y = y + h * dy`"]
+    E --> F["`Update x: x = x + h`"]
+    F --> G["`Is x < xn?`"]
     G --> |Yes| D
-    G --> |No| H["End: Solution approximated over the interval [x0, xn]"]
-    
-    class A,B,C,D,E,F,G,H wrapText;
+    G --> |No| H["`End: Solution approximated over the interval [x0, xn]`"]
 ```
-
-
 Example
 Suppose you want to solve the differential equation:
 
