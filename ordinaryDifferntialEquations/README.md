@@ -33,9 +33,10 @@ graph TD
     C --> D["`Calculate slope: dy = f(x, y)`"]
     D --> E["`Update y: y = y + h * dy`"]
     E --> F["`Update x: x = x + h`"]
-    F --> G["`Is x < xn?`"]
+    F --> G{"`Is x < xn?`"}
     G --> |Yes| D
     G --> |No| H["`End: Solution approximated over the interval [x0, xn]`"]
+
 ```
 Example
 Suppose you want to solve the differential equation:
