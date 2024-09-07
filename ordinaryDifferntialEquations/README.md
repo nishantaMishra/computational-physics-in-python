@@ -26,7 +26,24 @@ graph TD
     G --> |No| H["End: Solution approximated over the interval [x0, xn]"]
 ```
 
-
+```mermaid
+graph TD
+    subgraph Initialization
+        A["Start: Given ODE dy/dx = f(x, y)"] 
+        A --> B["Initial condition y(x0) = y0"]
+        B --> C["Choose step size h"]
+        C --> D["Set initial values: x = x0, y = y0"]
+    end
+    
+    subgraph Iteration
+        D --> E["Calculate slope: dy = f(x, y)"]
+        E --> F["Update y: y = y + h * dy"]
+        F --> G["Update x: x = x + h"]
+        G --> H{"Is x < xn?"}
+        H --> |Yes| E
+        H --> |No| I["End: Solution approximated"]
+    end
+```
 Example
 Suppose you want to solve the differential equation:
 
