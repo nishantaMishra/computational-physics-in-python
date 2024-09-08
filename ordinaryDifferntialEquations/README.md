@@ -27,7 +27,7 @@ graph TD
     G --> |No| H["`End: Solution approximated <br/> over the interval [x0, xn]`"]
 
 ```
-Example
+## Example
 Suppose you want to solve the differential equation:
 
 ```math
@@ -68,8 +68,23 @@ x_2 = x_1 + h = 0.1 + 0.1 = 0.2
 Continue... till convergence
 
 
+<div style="display: flex;">
+  <div style="flex: 50%; padding-right: 10px;">
+    <!-- Left column content -->
+    ### Column 1
+    This is the content for the first column.
+  </div>
+  <div style="flex: 50%; padding-left: 10px;">
+    <!-- Right column content -->
+    ### Column 2
+    This is the content for the second column.
+  </div>
+</div>
 
-### Limitations:
+
+
+
+### Limitations of Euler's Method:
 1. *Accuracy*: Euler's method is a first-order method, meaning its error is proportional to the step size $h$. The smaller the step size, the more accurate the method, but it also requires more computational steps.
 2. *Stability*: For some differential equations, especially stiff ones, Euler's method can become unstable unless the step size is very small.
 
