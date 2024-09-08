@@ -47,50 +47,30 @@ Initial condition: $(x_0 ,y_0) = (0,1)$
 Step size: $ℎ = 0.1$
 
 Iteration 1:
-
 ```math
 y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot (0 \times 1) = 1
 ```
+
 ```math
 x_1 = x_0 + h = 0 + 0.1 = 0.1
-​```
+```
 
 Iteration 2:
 
 ```math
 y_2 = y_1 + h \cdot f(x_1, y_1) = 1 + 0.1 \cdot (0.1 \times 1) = 1.01
 ```
+
 ```math
 x_2 = x_1 + h = 0.1 + 0.1 = 0.2
 ```
-Continue...
 
-Advantages and Limitations
-Advantages:
-
-Simple to implement: Euler's method is easy to understand and implement computationally.
-Quick computation: For small problems or problems requiring low accuracy, Euler's method can be very fast.
-Limitations:
-
-Accuracy: Euler's method is a first-order method, meaning its error is proportional to the step size 
-ℎ
-h. The smaller the step size, the more accurate the method, but it also requires more computational steps.
-Stability: For some differential equations, especially stiff ones, Euler's method can become unstable unless the step size is very small.
-Summary
-Euler's Method is a fundamental numerical technique for approximating solutions to differential equations. It works by taking small steps along the curve, using the slope at each step to estimate the next point. While it's simple and easy to use, it's best suited for problems where a rough approximation is sufficient, or as a stepping stone to more advanced methods.
+Continue... till convergence
 
 
 
-```mermaid
-flowchart TD
-    A[Start] --> B[Initialize x, y, h, n]
-    B --> C{Is i < n?}
-    C -->|Yes| D[Calculate dy = x * y]
-    D --> E[Update y = y + dy * h]
-    E --> F[Update x = x + h]
-    F --> G[Print x, y]
-    G --> H[Increment i by 1]
-    H --> C
-    C -->|No| I[End]
-```
+### Limitations:
+1. *Accuracy*: Euler's method is a first-order method, meaning its error is proportional to the step size $h$. The smaller the step size, the more accurate the method, but it also requires more computational steps.
+2. *Stability*: For some differential equations, especially stiff ones, Euler's method can become unstable unless the step size is very small.
+
 
