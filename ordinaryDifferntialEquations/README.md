@@ -31,8 +31,8 @@ graph TD
 
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">Title</b></td>
-    <td><b style="font-size:30px">Title 2</b></td>
+    <td><b style="font-size:30px">Analytic solution </b></td>
+    <td><b style="font-size:30px">Python Solutin</b></td>
  </tr>
  <tr>
     <td>Suppose you want to solve the differential equation:
