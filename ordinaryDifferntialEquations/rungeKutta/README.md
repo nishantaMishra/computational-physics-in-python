@@ -70,249 +70,38 @@ Given an ODE $\frac{dy}{dx} = f(x,y)$ and initial conditions $x_0$ and $y_0$ , t
  ```math
  K_1 = h \cdot f(x_n, y_n)
  ```
- Slope at the midpoint, using 
-𝐾
-1
-K 
-1
-​
-  for estimation.
-𝐾
-2
-=
-ℎ
-⋅
-𝑓
-(
-𝑥
-𝑛
-+
-ℎ
-2
-,
-𝑦
-𝑛
-+
-𝐾
-1
-2
-)
-K 
-2
-​
- =h⋅f(x 
-n
-​
- + 
-2
-h
-​
- ,y 
-n
-​
- + 
-2
-K 
-1
-​
  
+ - $K_2$: Slope at the midpoint, using $K_1$ for estimation.
+```math
+K_2 = h \cdot f \left( x_n + \frac{h}{2}, y_n + \frac{K_1}{2} \right)
+```
 ​
- )
-𝐾
-3
-K 
-3
-​
- : Another slope at the midpoint, but now using 
-𝐾
-2
-K 
-2
-​
-  for estimation.
-𝐾
-3
-=
-ℎ
-⋅
-𝑓
-(
-𝑥
-𝑛
-+
-ℎ
-2
-,
-𝑦
-𝑛
-+
-𝐾
-2
-2
-)
-K 
-3
-​
- =h⋅f(x 
-n
-​
- + 
-2
-h
-​
- ,y 
-n
-​
- + 
-2
-K 
-2
-​
- 
-​
- )
-𝐾
-4
-K 
-4
-​
- : Slope at the end of the interval, using 
-𝐾
-3
-K 
-3
-​
-  for estimation.
-𝐾
-4
-=
-ℎ
-⋅
-𝑓
-(
-𝑥
-𝑛
-+
-ℎ
-,
-𝑦
-𝑛
-+
-𝐾
-3
-)
-K 
-4
-​
- =h⋅f(x 
-n
-​
- +h,y 
-n
-​
- +K 
-3
-​
- )
-Update the Solution:
+- $K_3$: Another slope at the midpoint, but now using $K_2$ for estimation.
+```math
+K_3 = h \cdot f \left( x_n + \frac{h}{2}, y_n + \frac{K_2}{2} \right)
+```
 
-Combine the slopes to update 
-𝑦
-y with a weighted average:
-𝑦
-𝑛
-+
-1
-=
-𝑦
-𝑛
-+
-1
-6
-(
-𝐾
-1
-+
-2
-𝐾
-2
-+
-2
-𝐾
-3
-+
-𝐾
-4
-)
-y 
-n+1
-​
- =y 
-n
-​
- + 
-6
-1
-​
- (K 
-1
-​
- +2K 
-2
-​
- +2K 
-3
-​
- +K 
-4
-​
- )
-Increment 
-𝑥
-x by the step size 
-ℎ
-h:
-𝑥
-𝑛
-+
-1
-=
-𝑥
-𝑛
-+
-ℎ
-x 
-n+1
-​
- =x 
-n
-​
- +h
-Explanation of the Slopes
-𝐾
-1
-K 
-1
-​
- : The slope at the beginning of the interval, similar to what Euler's method would use.
-𝐾
-2
-K 
-2
-​
-  and 
-𝐾
-3
-K 
-3
-​
- : Slopes at the midpoint of the interval, providing a better estimate of the curvature of the solution.
-𝐾
-4
-K 
-4
-​
- : The slope at the end of the interval, offering a final adjustment.
+- $K_4$: Slope at the end of the interval, using $K_3$ for estimation.
+```math
+K_4 = h \cdot f(x_n + h, y_n + K_3)
+```
+
+3. Update the Solution:
+
+Combine the slopes to update $y$ with a weihted average
+```math
+y_{n+1} = y_n + \frac{1}{6} (K_1 + 2K_2 + 2K_3 + K_4)
+```
+
+- Increment $x$ by the step size $h$ :
+```math
+x_{n+1} = x_n + h
+```
+
+
 The method then takes a weighted average of these slopes to approximate the next value of 
-𝑦
 y. This approach captures more information about the behavior of the function within each step, leading to higher accuracy.
+
+## Code 
+
+[orderFourRungeKutta.py](orderFourRungeKutta.py) : This solves the equation $\frac{dy}{dx} = xy$ using Fourth order Runge-Kutta Method.
