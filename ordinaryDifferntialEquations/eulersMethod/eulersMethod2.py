@@ -1,5 +1,5 @@
 ##############################################################
-#####  Euler's Method (commparison with real solution)  #####
+#####  Euler's Method (comparison with real solution)  #####
 ##############################################################
 """ Solve y' = xy over the domain [0,2]
 given y(0)=1

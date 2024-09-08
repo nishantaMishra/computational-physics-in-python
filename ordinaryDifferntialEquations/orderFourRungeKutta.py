@@ -26,5 +26,5 @@ for i in range(1, n+1):
     x = x + h
     print('%f \t %f \t\t %f' %(x,y,f(x)))
 
-#moreover, here we can change the value of h an see 
+#moreover, here we can change the value of h and see 
 #it's effect on accuracy of the solution. 
