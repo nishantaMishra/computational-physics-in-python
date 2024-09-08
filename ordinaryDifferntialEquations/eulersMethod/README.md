@@ -110,7 +110,7 @@ for i in range(n):
 1. *Accuracy*: Euler's method is a first-order method, meaning its error is proportional to the step size $h$. The smaller the step size, the more accurate the method, but it also requires more computational steps.
 2. *Stability*: For some differential equations, especially stiff ones, Euler's method can become unstable unless the step size is very small.
 
-[Runge-Kutta method](rungeKutta) attempts to overcome this limitation of Euler's Method.
+[Runge-Kutta method](https://github.com/nishantaMishra/computational-physics-in-python/tree/main/ordinaryDifferntialEquations/rungeKutta) attempts to overcome this limitation of Euler's Method.
 
 
 
