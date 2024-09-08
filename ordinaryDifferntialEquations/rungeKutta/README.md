@@ -37,7 +37,7 @@ K_1 = h \cdot f(x_n, y_n)
 
 2. Compute the slope at the midpoint using $K_1$
 ```math
-K_2 = h \cdot f \left(  x_n + \frac{h}{2}, y_n + \frac{K_1}{2} \rigth)
+K_2 = h \cdot f \left(  x_n + \frac{h}{2}, y_n + \frac{K_1}{2} \right)
 ```
 
 Update the Solution:
