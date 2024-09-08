@@ -116,9 +116,9 @@ x_1 = x_0 + h = 0 + 0.1 = 0.1
 
 Iteration 2:
 
-```math
-y_2 = y_1 + h \cdot f(x_1, y_1) = 1 + 0.1 \cdot (0.1 \times 1) = 1.01
-```
+
+$y_2 = y_1 + h \cdot f(x_1, y_1) = 1 + 0.1 \cdot (0.1 \times 1) = 1.01$
+
 
 ```math
 x_2 = x_1 + h = 0.1 + 0.1 = 0.2
