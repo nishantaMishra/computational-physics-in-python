@@ -32,10 +32,10 @@ graph TD
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Analytic solution </b></td>
-    <td><b style="font-size:30px">[Python Solution](eulersMethod.py) </b></td>
+    <td><b style="font-size:30px">Python Solution </b></td>
  </tr>
  <tr>
-    <td>Suppose you want to solve the differential equation:
+    <td>We have to solve the differential equation:
 
 $\frac{dx}{dy} = xy $
 
@@ -71,17 +71,17 @@ Continue... till convergence
 """ Solve y' = xy over the domain [0,2]
 given y(0)=1
 """
-# Define function
+### Define function
 dy = lambda x,y: x*y 
 
-# Define interval and step size
+### Define interval and step size
 x = 0
 xn = 2
 y = 1
 h = 0.1
 n = int((xn-x)/h)
 
-# Define iteration loop
+### Define iteration loop
 for i in range(n):
     y = y + dy(x,y)*h
     x = x + h
