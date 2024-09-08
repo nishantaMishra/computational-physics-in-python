@@ -49,7 +49,9 @@ Given:
 $f(x,y)=xy$
 
 Initial condition: $(x_0 ,y_0) = (0,1)$
+
 Step size: $ℎ = 0.1$
+
 
 Iteration 1:
 
@@ -70,6 +72,7 @@ Continue... till convergence
 ################################################
 #####        Euler's Method           #####
 #############################################
+
 """ Solve y' = xy over the domain [0,2]
 given y(0)=1
 """
@@ -99,4 +102,8 @@ for i in range(n):
 1. *Accuracy*: Euler's method is a first-order method, meaning its error is proportional to the step size $h$. The smaller the step size, the more accurate the method, but it also requires more computational steps.
 2. *Stability*: For some differential equations, especially stiff ones, Euler's method can become unstable unless the step size is very small.
 
+## Code
+[eulersMethod.py](eulersMethod.py) : This code solves the given example using Euler's Method
+
+[eulersMethod2.py](eulersMethod2.py) : This code compares the values from numerical solution with real solution.
 
