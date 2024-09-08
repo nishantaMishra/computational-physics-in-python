@@ -82,7 +82,7 @@ for i in range(n):
     print(x,y)
 </code></pre>
 
-    </td>
+</td>
  </tr>
 </table>
 
