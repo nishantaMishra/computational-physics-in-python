@@ -47,12 +47,14 @@ Applying Euler's Method:
 
 Define Function:
 $f(x,y)=xy$
+<p>&nbsp;</p> <!-- Adds vertical space -->
 
 Initial condition: $(x_0 ,y_0) = (0,1)$
 
 Step size: $ℎ = 0.1$
 
 
+<p>&nbsp;</p> <!-- Adds vertical space -->
 Iteration 1:
 
 $y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot (0 \times 1) = 1$
