@@ -45,7 +45,7 @@ with the initial condition $y(0)=1$, over the interval $[0,2]$.
 
 Applying Euler's Method:
 
-Given:
+Define Function:
 $f(x,y)=xy$
 
 Initial condition: $(x_0 ,y_0) = (0,1)$
