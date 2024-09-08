@@ -22,6 +22,8 @@ The second-order Runge-Kutta method improves upon Euler's method by making a mor
 
 ### Steps of Second Order Runge_Kutta Method
 Steps of the Second-Order Runge-Kutta Method
+
+
 Initial Values:
 
 1. Start with the initial conditions: 
@@ -52,3 +54,5 @@ x_{n+1} = x_n + h
 ```
 
 ## Code 
+[secondOrderRungeKutta.py](secondOrderRungeKutta.py) : This solves the equation $\frac{dy}{dx} = xy$ using second order Runge-Kutta Method.
+
