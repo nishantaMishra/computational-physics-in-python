@@ -18,17 +18,17 @@ Now for each sub-interval, the trapezoid rule computes the area of a trapezoid w
 
 Thus, trapezoid rule approximates integrals according to the expression
 ```math
-\int_a^b f(x) dx \approx \sum_{i=0}^{i=n-1} h \frac{f(x_i) + f(x_{i+1})}{2}   \tag{$1$} 
+\int_a^b f(x) dx \approx \sum_{i=0}^{i=n-1} h \frac{f(x_i) + f(x_{i+1})}{2}  
 ```
-But the expression 1 is not perfect,  it "double counts" most of the terms in the series. To illustrate this fact, consider the expansion of the trapezoidal rule:
+But the expression above is not perfect,  it "double counts" most of the terms in the series. To illustrate this fact, consider the expansion of the trapezoidal rule:
 ```math
 \sum_{i=0}^{i=n-1} h \frac{f(x_i) + f(x_{i+1})}{2} = \frac{h}{2} \left[ (f(x_0) + f(x_1)) + (f(x_1) + f(x_2)) + (f(x_2) + f(x_3)) + ... + (f(x_{n-1}) + f(x_n)) \right]
 ```
 Computationally, this is many extra additions and calls to $f(x)$ than are really necessary. We can be made more computationally efficient using the following expression:
 ```math
-\int_a^b f(x) dx \approx \frac{h}{2}  \left(  f(x_0) + 2 \sum_{i=1}^{n-1} f(x_i) + f(x_n) \right)   \tag{$2$} 
+\int_a^b f(x) dx \approx \frac{h}{2}  \left(  f(x_0) + 2 \sum_{i=1}^{n-1} f(x_i) + f(x_n) \right)   
 ```
-This expression 2 is the expression that we shall use for estimating value of integrals.
+This expression is the expression that we shall use for estimating value of integrals.
 
 This expression can also be expressed in terms of $a$ and $b$
 ```math
