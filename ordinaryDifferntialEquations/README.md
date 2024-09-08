@@ -87,7 +87,44 @@ Continue... till convergence
     <td><b style="font-size:30px">Title 2</b></td>
  </tr>
  <tr>
-    <td>Lorem ipsum ...</td>
+    <td>Suppose you want to solve the differential equation:
+
+```math
+\frac{dx}{dy} = xy
+``` 
+
+with the initial condition $y(0)=1$, over the interval $[0,2]$.
+
+Applying Euler's Method:
+
+Given:
+```math
+f(x,y)=xy
+```
+
+Initial condition: $(x_0 ,y_0) = (0,1)$
+Step size: $ℎ = 0.1$
+
+Iteration 1:
+```math
+y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot (0 \times 1) = 1
+```
+
+```math
+x_1 = x_0 + h = 0 + 0.1 = 0.1
+```
+
+Iteration 2:
+
+```math
+y_2 = y_1 + h \cdot f(x_1, y_1) = 1 + 0.1 \cdot (0.1 \times 1) = 1.01
+```
+
+```math
+x_2 = x_1 + h = 0.1 + 0.1 = 0.2
+```
+
+Continue... till convergence</td>
     <td>Lorem ipsum ...</td>
  </tr>
 </table>
