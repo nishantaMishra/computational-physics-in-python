@@ -50,6 +50,7 @@ Initial condition: $(x_0 ,y_0) = (0,1)$
 Step size: $ℎ = 0.1$
 
 Iteration 1:
+
 $y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot (0 \times 1) = 1$
 
 $x_1 = x_0 + h = 0 + 0.1 = 0.1 $
@@ -70,12 +71,17 @@ Continue... till convergence
 """ Solve y' = xy over the domain [0,2]
 given y(0)=1
 """
+# Define function
 dy = lambda x,y: x*y 
+
+# Define interval and step size
 x = 0
 xn = 2
 y = 1
 h = 0.1
 n = int((xn-x)/h)
+
+# Define iteration loop
 for i in range(n):
     y = y + dy(x,y)*h
     x = x + h
@@ -85,8 +91,6 @@ for i in range(n):
 </td>
  </tr>
 </table>
-
-
 
 
 ### Limitations of Euler's Method:
