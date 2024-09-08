@@ -32,9 +32,12 @@ Suppose you want to solve the differential equation:
 
 ```math
 \frac{dx}{dy} = xy
-with the initial condition y(0)=1, over the interval [0,2].
+``` 
+
+with the initial condition $y(0)=1$, over the interval $[0,2]$.
 
 Applying Euler's Method:
+
 Given:
 ```math
 f(x,y)=xy
