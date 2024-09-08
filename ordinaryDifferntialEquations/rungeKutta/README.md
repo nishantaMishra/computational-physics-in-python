@@ -9,9 +9,10 @@ Given an ODE of the form:
 ```
 
 with an initial condition 
+
 ```math
 y(x_0) = y_0
-​```
+```
 the goal is to approximate the value of $y$ over a range of $x$ values.
 
 
