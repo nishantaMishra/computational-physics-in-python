@@ -26,7 +26,7 @@ Initial Values:
 
 1. Start with the initial conditions: 
 
-x 0and y 0
+$x_0$ and $y_0$
 
 2. Calculate Intermediate Slope:
 
@@ -45,5 +45,10 @@ K_2 = h \cdot f \left(  x_n + \frac{h}{2}, y_n + \frac{K_1}{2} \right)
 - Update the solution using the slope at the midpoint:
 ```math
 y_{n+1} = y_n + K_2
-​```
+```
+Increment $x$ by the step size $h$:
+```math
+x_{n+1} = x_n + h
+```
 
+## Code 
