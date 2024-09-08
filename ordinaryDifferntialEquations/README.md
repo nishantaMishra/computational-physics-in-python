@@ -124,7 +124,8 @@ y_2 = y_1 + h \cdot f(x_1, y_1) = 1 + 0.1 \cdot (0.1 \times 1) = 1.01
 x_2 = x_1 + h = 0.1 + 0.1 = 0.2
 ```
 
-Continue... till convergence</td>
+Continue... till convergence
+</td>
     <td>Lorem ipsum ...</td>
  </tr>
 </table>
