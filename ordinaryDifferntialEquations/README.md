@@ -63,7 +63,7 @@ $x_2 = x_1 + h = 0.1 + 0.1 = 0.2$
 Continue... till convergence
 </td>
     <td>
-```python    
+<pre><code class="language-python">
 ################################################
 #####        Euler's Method           #####
 #############################################
@@ -80,7 +80,7 @@ for i in range(n):
     y = y + dy(x,y)*h
     x = x + h
     print(x,y)
-```
+</code></pre>
 
     </td>
  </tr>
