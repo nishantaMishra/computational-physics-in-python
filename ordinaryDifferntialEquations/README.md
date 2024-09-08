@@ -28,58 +28,6 @@ graph TD
 
 ```
 ## Example
-Suppose you want to solve the differential equation:
-
-```math
-\frac{dx}{dy} = xy
-``` 
-
-with the initial condition $y(0)=1$, over the interval $[0,2]$.
-
-Applying Euler's Method:
-
-Given:
-```math
-f(x,y)=xy
-```
-
-Initial condition: $(x_0 ,y_0) = (0,1)$
-Step size: $ℎ = 0.1$
-
-Iteration 1:
-```math
-y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot (0 \times 1) = 1
-```
-
-```math
-x_1 = x_0 + h = 0 + 0.1 = 0.1
-```
-
-Iteration 2:
-
-```math
-y_2 = y_1 + h \cdot f(x_1, y_1) = 1 + 0.1 \cdot (0.1 \times 1) = 1.01
-```
-
-```math
-x_2 = x_1 + h = 0.1 + 0.1 = 0.2
-```
-
-Continue... till convergence
-
-
-<div style="display: flex;">
-  <div style="flex: 50%; padding-right: 10px;">
-    <!-- Left column content -->
-    ### Column 1
-    This is the content for the first column.
-  </div>
-  <div style="flex: 50%; padding-left: 10px;">
-    <!-- Right column content -->
-    ### Column 2
-    This is the content for the second column.
-  </div>
-</div>
 
 <table border="0">
  <tr>
@@ -89,44 +37,52 @@ Continue... till convergence
  <tr>
     <td>Suppose you want to solve the differential equation:
 
-```math
-\frac{dx}{dy} = xy
-``` 
+$\frac{dx}{dy} = xy $
 
 with the initial condition $y(0)=1$, over the interval $[0,2]$.
 
 Applying Euler's Method:
 
 Given:
-```math
-f(x,y)=xy
-```
+$f(x,y)=xy$
 
 Initial condition: $(x_0 ,y_0) = (0,1)$
 Step size: $ℎ = 0.1$
 
 Iteration 1:
-```math
-y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot (0 \times 1) = 1
-```
+$y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot (0 \times 1) = 1$
 
-```math
-x_1 = x_0 + h = 0 + 0.1 = 0.1
-```
+$x_1 = x_0 + h = 0 + 0.1 = 0.1 $
 
 Iteration 2:
 
-
 $y_2 = y_1 + h \cdot f(x_1, y_1) = 1 + 0.1 \cdot (0.1 \times 1) = 1.01$
 
-
-```math
-x_2 = x_1 + h = 0.1 + 0.1 = 0.2
-```
+$x_2 = x_1 + h = 0.1 + 0.1 = 0.2$
 
 Continue... till convergence
 </td>
-    <td>Lorem ipsum ...</td>
+    <td>
+```python    
+################################################
+#####        Euler's Method           #####
+#############################################
+""" Solve y' = xy over the domain [0,2]
+given y(0)=1
+"""
+dy = lambda x,y: x*y 
+x = 0
+xn = 2
+y = 1
+h = 0.1
+n = int((xn-x)/h)
+for i in range(n):
+    y = y + dy(x,y)*h
+    x = x + h
+    print(x,y)
+```
+
+    </td>
  </tr>
 </table>
 
