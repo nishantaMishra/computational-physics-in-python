@@ -24,63 +24,26 @@ The second-order Runge-Kutta method improves upon Euler's method by making a mor
 Steps of the Second-Order Runge-Kutta Method
 Initial Values:
 
-Start with the initial conditions: 
+1. Start with the initial conditions: 
 
 x 0and y 0
 
-Calculate Intermediate Slope:
+2. Calculate Intermediate Slope:
 
-1. Compute the slope at the beginning of the interval:
+- Compute the slope at the beginning of the interval:
 ```math
 K_1 = h \cdot f(x_n, y_n)
 ```
 
-2. Compute the slope at the midpoint using $K_1$
+- Compute the slope at the midpoint using $K_1$
 ```math
 K_2 = h \cdot f \left(  x_n + \frac{h}{2}, y_n + \frac{K_1}{2} \right)
 ```
 
-Update the Solution:
+3. Update the Solution:
 
-Update the solution using the slope at the midpoint:
-𝑦
-𝑛
-+
-1
-=
-𝑦
-𝑛
-+
-𝐾
-2
-y 
-n+1
-​
- =y 
-n
-​
- +K 
-2
-​
- 
-Increment 
-𝑥
-x by the step size 
-ℎ
-h:
-𝑥
-𝑛
-+
-1
-=
-𝑥
-𝑛
-+
-ℎ
-x 
-n+1
-​
- =x 
-n
-​
- +h
+- Update the solution using the slope at the midpoint:
+```math
+y_{n+1} = y_n + K_2
+​```
+
