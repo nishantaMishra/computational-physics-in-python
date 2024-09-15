@@ -1,4 +1,4 @@
-द# Root Finding
+# Root Finding
 
 ## Newton-Raphson Method
 
