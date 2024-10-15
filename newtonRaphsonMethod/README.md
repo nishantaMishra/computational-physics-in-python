@@ -7,7 +7,7 @@ $x_r$ . Unless $x_0$ is a very lucky guess, $f(x_0)$ will not be a root. Given t
 $x_1$ that is an improvement on $x_0$ (i.e., closer to $x_r$ than $x_0$ ). If we assume that $x_0$ is “close enough”
 to $x_r$ , then we can improve upon it by taking the linear approximation of $f(x)$ around $x_0$ , which is
 a line, and finding the intersection of this line with the x-axis. Written out, the linear approximation
-of $f(x)$ around $x_0$ is $f(x) \approx f (x_0 ) + f'(x_0 )(x − x_0 ). Using this approximation, we find $x_1$ such that
+of $f(x)$ around $x_0$ is $f(x) \approx f (x_0 ) + f'(x_0 )(x − x_0 )$. Using this approximation, we find $x_1$ such that
 $f(x_1) = 0$. Plugging these values into the linear approximation results in the following equation:
 ```math
 x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}
